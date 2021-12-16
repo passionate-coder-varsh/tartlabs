@@ -1,10 +1,16 @@
 import './App.css';
+import Footer from './components/Footer';
 
 
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello Everyone!!!! --------
-    </h1>
+    <html>
+      <head>
+      </head>
+      <body>
+        <h1>Sample Code</h1>
+      
+      <Footer /></body>
+      </html>
   )
 }
