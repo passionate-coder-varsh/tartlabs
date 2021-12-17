@@ -36,6 +36,7 @@ body {
   @apply h-0 absolute left-0 w-full;
   top: 86px;
 }
+
 .rectanglebox {
   @apply absolute;
   width: 370px;
@@ -60,7 +61,7 @@ body {
   @apply border-solid border box-border absolute;
   width: 370px;
   height: 414px;
-  left: 635px;
+  left: 685px;
   top: 257px;
   background-color: rgba(251, 251, 251, 1);
   border-color: rgba(196, 196, 196, 1);
@@ -73,7 +74,7 @@ body {
   @apply border-solid border box-border absolute;
   width: 370px;
   height: 414px;
-  left: 1055px;
+  left: 1090px;
   top: 257px;
   background-color: rgba(251, 251, 251, 1);
   border-color: rgba(196, 196, 196, 1);
@@ -429,6 +430,72 @@ body {
   line-height: 146.1%;
 
   text-transform: uppercase;
+}
 
+.innerbox1{
+  position: absolute;
+width: 300px;
+height: 123px;
+left: 30px;
+top: 265px;
 
+background: #191919;
+border-radius: 14px;
+}
+
+.innerbox2{
+  position: absolute;
+  width: 300px;
+  height: 123px;
+  left: 30px;
+  top: 265px;
+  
+  background: #191919;
+  border-radius: 14px;
+}
+.innerbox3{
+  position: absolute;
+width: 300px;
+height: 123px;
+left: 30px;
+top: 265px;
+
+background: #191919;
+border-radius: 14px;
+}
+
+.innerbox4{
+  position: absolute;
+  width: 300px;
+  height: 123px;
+  left: 30px;
+  top: 265px;
+  
+  background: #191919;
+  border-radius: 14px;
+}
+.innerbox5{
+  position: absolute;
+width: 300px;
+height: 123px;
+left: 30px;
+top: 265px;
+
+background: #191919;
+border-radius: 14px;
+}
+
+.innerbox6{
+  position: absolute;
+  width: 300px;
+  height: 123px;
+  left: 30px;
+  top: 265px;
+  
+  background: #191919;
+  border-radius: 14px;
+}
+
+.audioplayer{
+  color: orange;
 }

@@ -2,6 +2,17 @@ module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
+  rules: {
+    'at-rule-no-unknown': [true, {
+      ignoreAtRules: [
+        'tailwind',
+        'apply',
+        'variants',
+        'responsive',
+        'screen'
+      ]
+    }],
+  },
   theme: {
     extend: {},
     container: {

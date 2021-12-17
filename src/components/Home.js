@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Header";
 import john from "../john.png"
 
+
 const Home = () => {
     return (
     <section>  
@@ -21,12 +22,20 @@ const Home = () => {
                   
             <div className="homefront">
                 <div className="container top-10 left-20">
-                    <img  src={john} alt="John"/>
+                    <img  src={john} alt="John" className="absolute inset-6"/>
                 </div> 
+
+                <div>
+                <audio className="audioplayer"
+                        controls
+                        src={require("../cham.mp3")}
+                        type="audio/mpeg"
+                        />
+                </div>
             </div>
                 
                 
-                <div className = "jonathan">Jonathan James</div>
+                <div className = "">Jonathan James</div>
         
            
 
@@ -41,24 +50,4 @@ const Home = () => {
     )
   }
   
-  export default Home
-
-  const styles = StyleSheet.create({
-  container: {
-    position: 'absolute',
-        top: 0,
-        bottom: 0,
-        left: 0,
-        right: 0,
-  },
-    img: {
-      width: '50%',
-      position: 'absolute',
-      left: 0,
-    },
-    imgr: {
-      width: '50%',
-      position: 'absolute',
-      right: 0,
-    }
-});
+export default Home
