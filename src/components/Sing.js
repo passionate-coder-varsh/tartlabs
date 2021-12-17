@@ -62,10 +62,17 @@ const Sing = () => {
 
         <div className="ongoing">Ongoing Competitions</div>
 
-
+        <h1>Competitions</h1>
         <div className="competition">
+          <h1>Leaderboard</h1>
           <div className="leaderboard">
-            <div className="leaderboard_heading"></div>
+            <div className="leaderboard_heading">
+              <p> sno </p>
+              <p> sno </p>
+              <p> sno </p>
+              <p> sno </p>
+              <p> sno </p>
+            </div>
           </div>
         </div>
       </div>
