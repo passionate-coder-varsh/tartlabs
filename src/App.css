@@ -52,7 +52,6 @@ body {
   @apply font-extrabold h-32 text-4xl relative text-white not-italic w-48;
   left: 68px;
   top: 35px;
-  font-family: Sen;
   line-height: 43px;
 }
 /* 26/26 base rules are converted successfully. */
@@ -63,7 +62,7 @@ body {
   @apply border-solid border box-border absolute;
   width: 370px;
   height: 414px;
-  left: 835px;
+  left: 335px;
   top: 257px;
   background-color: rgba(251, 251, 251, 1);
   border-color: rgba(196, 196, 196, 1);
@@ -97,7 +96,7 @@ body {
   @apply border-solid border box-border absolute;
   width: 370px;
   height: 414px;
-  left: 1255px;
+  left: 755px;
   top: 257px;
   background-color: rgba(251, 251, 251, 1);
   border-color: rgba(196, 196, 196, 1);
@@ -175,7 +174,6 @@ body {
 .contenthome {
   @apply font-extrabold h-24 text-5xl absolute left-0 text-center not-italic w-full;
   top: 266px;
-  font-family: Sen;
   line-height: 55px;
   color: rgba(255, 77, 8, 1);
 }
@@ -183,10 +181,9 @@ body {
 /* ℹ️ Base selector: .explain */
 .explain {
   @apply h-24 text-lg leading-8 absolute text-center text-white not-italic;
-  width: 924px;
-  left: 498px;
+  width: 50%;
+  left: 258px;
   top: 401px;
-  font-family: Sen;
   font-weight: normal;
 }
 
@@ -202,7 +199,7 @@ body {
   @apply text-3xl text-white not-italic w-1/2;
   padding-left: 23%;
   padding-top: 2%;
-  font-family: Sen;
+
   font-weight: bold;
   line-height: 45px;
 }
@@ -213,7 +210,7 @@ body {
   left: 290px;
   top: 602px;
   background-color: rgba(255, 77, 8, 1);
-  font-family: Sen;
+
   padding-left: 2%;
 }
 
@@ -238,7 +235,7 @@ body {
 .footer {
   @apply h-6 text-base absolute text-center text-white not-italic w-full;
   top: 30px;
-  font-family: Sen;
+
   font-weight: normal;
   line-height: 146.1%;
 }
@@ -248,7 +245,7 @@ body {
   @apply font-extrabold h-8 text-5xl absolute text-white not-italic w-8;
   left: 865px;
   top: 956px;
-  font-family: Sen;
+
   line-height: 60px;
 }
 
@@ -323,7 +320,7 @@ body {
   @apply font-extrabold h-6 text-lg absolute text-center not-italic w-24;
   left: 600px;
   top: 1228px;
-  font-family: Sen;
+
   line-height: 146.1%;
   color: rgba(255, 77, 8, 1);
   border-radius: 60px;
@@ -332,9 +329,9 @@ body {
 .ongoing{
   @apply font-extrabold h-12 text-4xl absolute text-center text-white not-italic;
   width: 800px;
-  left:600px;
+  align-items:center;
   top: 1328px;
-  font-family: Sen;
+
   line-height: 51px;
 }
 
@@ -342,7 +339,7 @@ body {
   position: absolute;
   width: 470px;
   height: 812px;
-  left: 312px;
+  left: 112px;
   top: 1515px;
   background: #FCFCFC;
   border: 1px solid #DC1EE7;
@@ -373,3 +370,33 @@ body {
   border-radius: 20px 20px 0px 0px;
 }
 
+.steps
+{
+  @apply absolute w-20 h-6 not-italic font-extrabold text-lg text-orange-600 top-5 left-6;
+}
+.stepstext{
+  position: absolute;
+  width: 310px;
+  height: 50px;
+  left: 25px;
+  top: 175px;
+
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 146.1%;
+  /* or 26px */
+
+  text-align: center;
+
+  color: #FFFFFF;
+}
+.stepsimage
+{
+  @apply relative;
+  width: 100%;
+  height:100%;
+
+  background-image: url("/public/Group2.png");
+}

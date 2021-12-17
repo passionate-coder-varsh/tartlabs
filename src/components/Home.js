@@ -5,14 +5,14 @@ const Home = () => {
     <section>  
         <section className="home homebg">
         <Header/>
-        <hr />
-            <h1 className="contenthome">
+
+            <span className="contenthome">
                 Evaluate your singing quality with <br /> our state-of-the-art AI judge!
-            </h1>
+            </span>
              
-            <p class="explain">Leverage agile frameworks to provide a robust synopsis for high level overviews. 
+            <span className="explain">Leverage agile frameworks to provide a robust synopsis for high level overviews. 
                   Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. 
-                  Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+                  Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</span>
 
             <p className="singer">Our Best Singer</p>
                   
