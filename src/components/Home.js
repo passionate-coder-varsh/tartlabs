@@ -1,11 +1,10 @@
 import React from "react";
 import Header from "./Header";
-import john from "../john.png"
-
+import john from "../media/john.png"
+import AudioPlayer from "react-h5-audio-player";
 
 const Home = () => {
     return (
-    <section>  
         <section className="home homebg">
         <Header/>
             <hr className="horizontal" />
@@ -26,11 +25,11 @@ const Home = () => {
                 </div> 
 
                 <div>
-                <audio className="audioplayer"
-                        controls
-                        src={require("../cham.mp3")}
-                        type="audio/mpeg"
-                        />
+                <AudioPlayer
+                        autoPlay
+                        src="../cham.mp3"
+                        // other props here
+                    />
                 </div>
             </div>
                 
@@ -41,12 +40,6 @@ const Home = () => {
 
         </section>
 
-            <div className="time col-span-4">
-            
-            <p className="counter">Count Every Second Until The Compitition Start.</p>
-            <h1 className="days">2</h1>
-        </div>
-    </section>
     )
   }
   
