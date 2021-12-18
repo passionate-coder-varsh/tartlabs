@@ -1,22 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-  
-.home {
-    @apply h-0 absolute left-0 w-full;
-    top: 86px;
-  }
+
 /* ℹ️ Base selector: .homebg */
 .homebg {
-    @apply bg-center bg-cover absolute top-0 left-0 w-full;
     height: 900px;
     background-image: url("/public/Rectangles.png");
 
   }
 
-  .topnav-right {
-    float: right;
-  }
 .homeor{
   position: absolute;
   height: 19px;
@@ -93,13 +85,12 @@
 }
 
   .homefront {
-    position: absolute;
-    width: 900px;
+    @apply absolute lg:w-192 md:w-96 sm:w-10 xs:w-10 lg:mt-6;
     height: 132px;
-    left: 270px;
-    top: 656px;
-  
-    background: linear-gradient(90.05deg, rgba(73, 0, 216, 0.4) 0.04%, rgba(255, 14, 106, 0.4) 101%);
+    left: 379px;
+    top: 627px;
+    background: linear-gradient(
+    90.05deg, rgba(73, 0, 216, 0.4) 0.04%, rgba(255, 14, 106, 0.4) 101%);
   }
   
   
