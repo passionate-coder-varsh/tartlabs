@@ -5,7 +5,7 @@ export const FBox = styled.div`
   width: 100%;
   height: 80px;
   left: 0px;
-  top: 5857px;
+  top: 5653px;
   background: #ff4d08;
   @media (max-width: 1000px) {
     padding: 70px 30px;

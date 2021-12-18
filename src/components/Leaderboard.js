@@ -9,81 +9,69 @@ import iwanttosing from "../media/iwanttosing.png";
 const Leaderboard = () => {
   return (
     <section>
-      <div className="largeblack1">
+      <div className="largeblack1 grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1">
         <div className="CompBox">
-        <table className="table table-bordered">
-            <tbody className="tbody">
-                <tr>
-                  <td>
-                    <img src={cups} alt="art" className="absolute pt-10 pl-4" />
-                    <span className="float-right pt-12  pr-7 font-bold artcolor" />
-                  </td>
-                </tr>
+          <table className="table table-bordered">
+              <tbody className="tbody">
+                  <tr>
+                    <td>
+                      <img src={cups} alt="art" className="absolute pt-7 pl-4 float-left" />
+                      <span class=" font-extrabold pl-36 artcolor mt-10 absolute">Cups</span><br/>
+                      <span class=" font-bold pl-36 mt-11 absolute leadername">Anna Kendrick</span><br/>
+                      <pre class=" font-bold pl-36 mt-12 absolute leaderdate">Start: 6th July 2020  End: 27th July 2020</pre>
+                    </td>
+                  </tr>
+                  <hr/>
+                  <tr>
+                    <td className= "pt-16">
+                      <img src={cups} alt="art" className="absolute pt-20 pl-4" />
+                      <span class=" font-extrabold pl-36 artcolor mt-24 absolute">Cups</span><br/>
+                      <span class=" font-bold pl-36 mt-24 absolute leadername">Anna Kendrick</span><br/>
+                      <pre class=" font-bold pl-36 mt-24 absolute leaderdate">Start: 6th July 2020  End: 27th July 2020</pre>
+                    </td>
+                  </tr>
 
-                <tr>
-                  <td>
-                    <img src={cups} alt="art" className="absolute pt-20 pl-4" />
-                    <span className="float-right pt-12  pr-7 font-bold artcolor" />
-                  </td>
-                </tr>
+                  <tr>
+                    <td className= "pt-28">
+                      <img src={cups} alt="art" className="absolute pt-20 pl-4" />
+                      <span class=" font-extrabold pl-36 artcolor mt-24 absolute">Cups</span><br/>
+                      <span class=" font-bold pl-36 mt-24 absolute leadername">Anna Kendrick</span><br/>
+                      <pre class=" font-bold pl-36 mt-24 absolute leaderdate">Start: 6th July 2020  End: 27th July 2020</pre>
+                    </td>
+                  </tr>
 
-                <tr>
-                  <td>
-                    <img src={cups} alt="art" className="absolute pt-10 pl-4" />
-                    <span className="float-right pt-12  pr-7 font-bold artcolor" />
-                  </td>
-                </tr>
+                  <tr>
+                    <td className= "pt-28">
+                      <img src={cups} alt="art" className="absolute pt-20 pl-4" />
+                      <span class=" font-extrabold pl-36 artcolor mt-24 absolute">Cups</span><br/>
+                      <span class=" font-bold pl-36 mt-24 absolute leadername">Anna Kendrick</span><br/>
+                      <pre class=" font-bold pl-36 mt-24 absolute leaderdate">Start: 6th July 2020  End: 27th July 2020</pre>
+                    </td>
+                  </tr>
 
-                <tr>
-                  <td>
-                    <img src={cups} alt="art" className="absolute pt-10 pl-4" />
-                    <span className="float-right pt-12  pr-7 font-bold artcolor" />
-                  </td>
-                </tr>
-
-                <tr>
-                  <td>
-                    <img src={cups} alt="art" className="absolute pt-10 pl-4" />
-                    <span className="float-right pt-12  pr-7 font-bold artcolor" />
-                  </td>
-                </tr>
-              </tbody>
-          </table>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                  <tr>
+                    <td className= "pt-28">
+                      <img src={cups} alt="art" className="absolute pt-20 pl-4" />
+                      <span class=" font-extrabold pl-36 artcolor mt-24 absolute">Cups</span><br/>
+                      <span class=" font-bold pl-36 mt-24 absolute leadername">Anna Kendrick</span><br/>
+                      <pre class=" font-bold pl-36 mt-24 absolute leaderdate">Start: 6th July 2020  End: 27th July 2020</pre>
+                    </td>
+                  </tr>
+                </tbody>
+            </table>
 
         </div>
+
+
+
+
+
+
+
+
+
+
+
         <div className="LeadBox">
           <div className="leaderboard_heading">
             <table className="table table-bordered">

@@ -1,4 +1,6 @@
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
   
 .home {
     @apply h-0 absolute left-0 w-full;
@@ -6,16 +8,66 @@
   }
 /* ℹ️ Base selector: .homebg */
 .homebg {
-    @apply bg-center bg-cover absolute top-0 left-0;
+    @apply bg-center bg-cover absolute top-0 left-0 w-full;
     height: 900px;
     background-image: url("/public/Rectangles.png");
 
   }
-  
+
+  .topnav-right {
+    float: right;
+  }
+.homeor{
+  position: absolute;
+  height: 19px;
+  left: 754px;
+  top: 33px;
+  font-style: normal;
+  font-weight: light;
+  font-size: 16px;
+  line-height: 19px;
+  color:white
+}
+
+.homeor1{
+  position: absolute;
+  height: 19px;
+  left: 838px;
+  top: 33px;
+  font-style: normal;
+  font-weight: light;
+  font-size: 16px;
+  line-height: 19px;
+  color: white;
+}
+
+.homeor2{
+  position: absolute;
+  height: 19px;
+  left: 942px;
+  top: 33px;
+  font-style: normal;
+  font-weight: light;
+  font-size: 16px;
+  line-height: 19px;
+  color: white;
+}
+
+.homeor3{
+  position: absolute;
+  height: 19px;
+  left: 1054px;
+  top: 33px;
+  font-style: normal;
+  font-weight: light;
+  font-size: 16px;
+  line-height: 19px;
+  color:white
+}
   /* ℹ️ Base selector: .contenthome */
   
   .contenthome {
-    @apply font-extrabold h-24 text-5xl absolute left-0 text-center not-italic w-full;
+    @apply font-extrabold h-24 lg:text-5xl md:text-xl sm:text-sm absolute left-0 text-center not-italic w-full;
     top: 266px;
     line-height: 55px;
     color: rgba(255, 77, 8, 1);
@@ -32,14 +84,14 @@
   
 
 .horizontal{
-    position: absolute;
-    width: 1519px;
-    height: 0px;
-    left: 0px;
-    top: 86px;
-  
-    border: 1px solid #FF4D08;
-  }
+  position: absolute;
+  width: 1519px;
+  height: 0px;
+  left: 0px;
+  top: 68px;
+  border: 0.5px solid #FF4D08;
+}
+
   .homefront {
     position: absolute;
     width: 900px;

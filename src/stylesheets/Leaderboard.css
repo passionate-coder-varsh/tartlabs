@@ -6,6 +6,15 @@
   color: #ff4d08;
 }
 
+.leadername{
+  color: #C3C5D1;
+  font-size: 16px;
+}
+
+.leaderdate{
+font-size: 14px;
+}
+
 .largeblack1 {
   @apply relative w-full;
   top: 1915px;
@@ -33,7 +42,7 @@
 
 .CompBox {
   position: absolute;
-  width: 470px;
+  width: 490px;
   height: 812px;
   left: 112px;
   top: -520px;

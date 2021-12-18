@@ -7,8 +7,8 @@ const Home = () => {
   return (
     <section className="home homebg">
       <Header />
-      <hr className="horizontal" />
-      <span className="contenthome">
+      <hr class="horizontal" />
+      <span class="contenthome">
         Evaluate your singing quality with <br /> our state-of-the-art AI judge!
       </span>
       <br />
