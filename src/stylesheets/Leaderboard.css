@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.artcolor {
+  color: #ff4d08;
+}
+
+.largeblack1 {
+  @apply relative w-full;
+  top: 1715px;
+  margin-top: 10%;
+}
+
+/* ℹ️ Base selector: .viewmore */
+.viewmore {
+  @apply font-extrabold h-6 text-lg absolute text-center not-italic w-24;
+  left: 600px;
+  top: 1228px;
+
+  line-height: 146.1%;
+  color: rgba(255, 77, 8, 1);
+  border-radius: 60px;
+}
+
+.ongoing {
+  @apply font-extrabold h-12 text-4xl absolute text-center text-white not-italic;
+  width: 95%;
+  align-items: center;
+  top: 1328px;
+  line-height: 51px;
+}
+
+.competition {
+  position: absolute;
+  width: 470px;
+  height: 812px;
+  left: 112px;
+  top: 1515px;
+  background: #fcfcfc;
+  border: 1px solid #dc1ee7;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.leaderboard {
+  position: absolute;
+  width: 705px;
+  height: 812px;
+  left: 579px;
+  top: 0px;
+  background: #fcfcfc;
+  border: 1px solid #dcdee7;
+  box-sizing: border-box;
+  border-radius: 20px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.leaderboard_heading {
+  position: absolute;
+  width: 705px;
+  height: 75px;
+  left: -1px;
+  top: -3px;
+  background: linear-gradient(90.05deg, #4900d8 0.04%, #ff0e6a 101%), #000000;
+  border-radius: 20px 20px 0px 0px;
+}

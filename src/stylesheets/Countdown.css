@@ -1,0 +1,27 @@
+
+.LinearBg 
+{
+  @apply h-32 absolute left-0 w-full;
+  top: 900px;
+  background: linear-gradient(90.05deg, #4900D8 0.04%, #FF0E6A 101%);
+}
+  
+.CounterText 
+{
+  @apply text-2xl font-light gap-16 text-white not-italic;
+  padding-left: 19%;
+  padding-top: 1.75%;
+  font-weight: bold;
+  line-height: 35px;
+}
+
+.ImageSize
+{
+  position: absolute;
+  width: 145px;
+  height: 145px;
+  left: 135px;
+  top: 925px;
+  border-radius: 10px;
+}
+  

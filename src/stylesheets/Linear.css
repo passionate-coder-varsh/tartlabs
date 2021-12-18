@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ℹ️ Base selector: .linear */
+.linear {
+  @apply absolute left-0 w-full;
+  height: 787px;
+  top: 1929px;
+  opacity: 0.8;
+  background: linear-gradient(90.05deg, #4900D8 0.04%, #FF0E6A 101%), #FFFFFF;
+}
+
+/* ℹ️ Base selector: .whitebox1 */
+.whitebox1 {
+  @apply border-solid border box-border absolute;
+  width: 370px;
+  height: 414px;
+  left: 685px;
+  top: 257px;
+  background-color: rgba(251, 251, 251, 1);
+  border-color: rgba(196, 196, 196, 1);
+  box-shadow: -8px 9px 34px rgba(3, 3, 3, 0.1);
+  border-radius: 30px;
+}
+
+/* ℹ️ Base selector: .whitebox2 */
+.whitebox2 {
+  @apply border-solid border box-border absolute;
+  width: 370px;
+  height: 414px;
+  left: 1090px;
+  top: 257px;
+  background-color: rgba(251, 251, 251, 1);
+  border-color: rgba(196, 196, 196, 1);
+  box-shadow: -8px 9px 34px rgba(3, 3, 3, 0.1);
+  border-radius: 30px;
+}
+/* ℹ️ Base selector: .tickbox */
+.tickbox {
+  @apply  absolute;
+  left: 240px;
+  top: 510px;
+  border-radius: 75px;
+}
+
+/* ℹ️ Base selector: .crossbox */
+.crossbox {
+  @apply  absolute;
+  left: 426.38px;
+  top: 510px;
+  border-radius: 75px;
+}

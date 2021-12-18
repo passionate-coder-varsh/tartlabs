@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ℹ️ Base selector: .sing */
+.sing {
+  @apply bg-black absolute left-0 w-full;
+  height: 882px;
+  top: 1028px;
+}
+
+.rectanglebox {
+  @apply absolute;
+  width: 370px;
+  height: 640px;
+  left: 145px;
+  top: 127px;
+  background-color: rgba(255, 77, 8, 1);
+}
+
+.SingContainer{
+  left:500px;
+}
+
+.rectboxtext {
+  @apply font-extrabold h-32 text-4xl relative text-white not-italic w-48;
+  left: 68px;
+  top: 35px;
+  line-height: 43px;
+}
+
+/* ℹ️ Base selector: .singergirl */
+.singergirl {
+  @apply absolute;
+  width: 383px;
+  height: 439px;
+  left: 95px;
+  top: 328px;
+  background-image: url("/public/siger\ 1.png");
+  transform: scaleX(1);
+}
+
+.steps {
+  @apply absolute w-20 h-6 not-italic font-extrabold text-lg text-orange-600 top-5 left-6;
+}
+.stepstext {
+  position: absolute;
+  width: 310px;
+  height: 50px;
+  left: 25px;
+  top: 175px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 146.1%;
+  /* or 26px */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.stepsimage {
+  @apply relative;
+  width: 100%;
+  height: 100%;
+
+  background-image: url("/public/Group2.png");
+}
+
+/* ℹ️ Base selector: .box1 */
+.box1 {
+  @apply absolute;
+  width: 370px;
+  height: 306px;
+  left: 535px;
+  top: 127px;
+  background-color: rgba(36, 34, 40, 1);
+  box-shadow: -8px 9px 34px rgba(3, 3, 3, 0.1);
+}
+
+/* ℹ️ Base selector: .box2 */
+
+.box2 {
+  @apply absolute;
+  width: 370px;
+  height: 306px;
+  left: 935px;
+  top: 127px;
+  background-color: rgba(36, 34, 40, 1);
+  box-shadow: -8px 9px 34px rgba(3, 3, 3, 0.1);
+}
+
+/* ℹ️ Base selector: .box3 */
+
+.box3 {
+  @apply absolute;
+  width: 370px;
+  height: 306px;
+  left: 535px;
+  top: 461px;
+  background-color: rgba(36, 34, 40, 1);
+  box-shadow: -8px 9px 34px rgba(3, 3, 3, 0.1);
+}
+
+/* ℹ️ Base selector: .box4 */
+.box4 {
+  @apply absolute;
+  width: 370px;
+  height: 306px;
+  left: 935px;
+  top: 461px;
+  background-color: rgba(36, 34, 40, 1);
+  box-shadow: -8px 9px 34px rgba(3, 3, 3, 0.1);
+}

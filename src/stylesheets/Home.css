@@ -1,0 +1,68 @@
+
+  
+.home {
+    @apply h-0 absolute left-0 w-full;
+    top: 86px;
+  }
+/* ℹ️ Base selector: .homebg */
+.homebg {
+    @apply bg-center bg-cover absolute top-0 left-0;
+    height: 900px;
+    background-image: url("/public/Rectangles.png");
+
+  }
+  
+  /* ℹ️ Base selector: .contenthome */
+  
+  .contenthome {
+    @apply font-extrabold h-24 text-5xl absolute left-0 text-center not-italic w-full;
+    top: 266px;
+    line-height: 55px;
+    color: rgba(255, 77, 8, 1);
+  }
+  
+  /* ℹ️ Base selector: .explain */
+  .explain {
+    @apply h-24 text-lg leading-8 absolute text-center text-white not-italic;
+    width: 60%;
+    left: 290px;
+    top: 401px;
+    font-weight: normal;
+  }
+  
+
+.horizontal{
+    position: absolute;
+    width: 1519px;
+    height: 0px;
+    left: 0px;
+    top: 86px;
+  
+    border: 1px solid #FF4D08;
+  }
+  .homefront {
+    position: absolute;
+    width: 900px;
+    height: 132px;
+    left: 270px;
+    top: 656px;
+  
+    background: linear-gradient(90.05deg, rgba(73, 0, 216, 0.4) 0.04%, rgba(255, 14, 106, 0.4) 101%);
+  }
+  
+  
+  .jonathan{
+    position: absolute;
+    width: 166px;
+    height: 28px;
+    left: 468px;
+    top: 700px;
+  
+    font-family: Sen;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 146.1%;
+  
+    text-transform: uppercase;
+  }

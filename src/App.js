@@ -1,4 +1,11 @@
 import './App.css';
+import './stylesheets/Home.css';
+import './stylesheets/Footer.css';
+import './stylesheets/Linear.css';
+import './stylesheets/Countdown.css';
+import './stylesheets/Sing.css';
+import './stylesheets/TopSingers.css';
+import './stylesheets/Leaderboard.css';
 import React from 'react';
 import Home from './components/Home';
 import Sing from './components/Sing';

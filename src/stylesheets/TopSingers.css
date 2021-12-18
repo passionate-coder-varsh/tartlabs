@@ -1,0 +1,167 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.ourtopsinger{
+  font-size: 33px;
+}
+
+/* ℹ️ Base selector: .singer */
+.singer {
+  @apply font-extrabold h-8 text-xl leading-6 pt-1 absolute text-white not-italic w-48;
+  left: 290px;
+  top: 602px;
+  background-color: rgba(255, 77, 8, 1);
+  padding-left: 1.25%;
+}
+
+.shares{
+  margin-left: 82%;
+}
+
+
+.largeblack {
+    @apply bg-black relative w-full;
+    height: 2568px;
+    top: 2715px;
+  }
+  
+.explain1 {
+    @apply h-24 text-lg leading-8 absolute text-center text-white not-italic;
+    width: 60%;
+    left: 290px;
+    top: 6%;
+    font-weight: normal;
+  }
+
+/* ℹ️ Base selector: .largebox1-1 */
+.largebox1-1 {
+    @apply absolute;
+    width: 370px;
+    height: 421px;
+    left: 135px;
+    top: 257px;
+    background-color: rgba(36, 34, 40, 1);
+    border-radius: 14px;
+  }
+  
+  /* ℹ️ Base selector: .largebox1-2 */
+  .largebox1-2 {
+    @apply absolute;
+    width: 370px;
+    height: 421px;
+    left: 535px;
+    top: 257px;
+    background-color: rgba(17, 17, 17, 0.8);
+    border-radius: 14px;
+  }
+  
+  /* ℹ️ Base selector: .largebox1-3 */
+  .largebox1-3 {
+    @apply absolute;
+    width: 370px;
+    height: 421px;
+    left: 935px;
+    top: 257px;
+    background-color: rgba(36, 34, 40, 1);
+    border-radius: 14px;
+  }
+  
+  /* ℹ️ Base selector: .largebox2-1 */
+  .largebox2-1 {
+    @apply absolute;
+    width: 370px;
+    height: 421px;
+    left: 135px;
+    top: 708px;
+    background-color: rgba(36, 34, 40, 1);
+    border-radius: 14px;
+  }
+  
+  /* ℹ️ Base selector: .largebox2-2 */
+  .largebox2-2 {
+    @apply absolute;
+    width: 370px;
+    height: 421px;
+    left: 535px;
+    top: 708px;
+    background-color: rgba(36, 34, 40, 1);
+    border-radius: 14px;
+  }
+  
+  /* ℹ️ Base selector: .largebox2-3 */
+  .largebox2-3 {
+    @apply absolute;
+    width: 370px;
+    height: 421px;
+    left: 935px;
+    top: 708px;
+    background-color: rgba(36, 34, 40, 1);
+    border-radius: 14px;
+  }
+
+.innerbox1{
+    position: absolute;
+  width: 300px;
+  height: 123px;
+  left: 30px;
+  top: 265px;
+  
+  background: #191919;
+  border-radius: 14px;
+  }
+  
+  .innerbox2{
+    position: absolute;
+    width: 300px;
+    height: 123px;
+    left: 30px;
+    top: 265px;
+    
+    background: #191919;
+    border-radius: 14px;
+  }
+  .innerbox3{
+    position: absolute;
+  width: 300px;
+  height: 123px;
+  left: 30px;
+  top: 265px;
+  
+  background: #191919;
+  border-radius: 14px;
+  }
+  
+  .innerbox4{
+    position: absolute;
+    width: 300px;
+    height: 123px;
+    left: 30px;
+    top: 265px;
+    
+    background: #191919;
+    border-radius: 14px;
+  }
+  .innerbox5{
+    position: absolute;
+  width: 300px;
+  height: 123px;
+  left: 30px;
+  top: 265px;
+  
+  background: #191919;
+  border-radius: 14px;
+  }
+  
+  .innerbox6{
+    position: absolute;
+    width: 300px;
+    height: 123px;
+    left: 30px;
+    top: 265px;
+    
+    background: #191919;
+    border-radius: 14px;
+  }
+  
