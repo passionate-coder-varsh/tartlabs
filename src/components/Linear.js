@@ -7,13 +7,14 @@ import wrong from "../media/wrong.png";
 const Linear = () => {
   return (
     <div className="linear">
-      <div> Do you want to vote Our singers song </div>
-      <div>
+      <div className="doyouwanttovote"> Do you want to vote Our singers song </div>
+      <div className="doyouwanttovotesent">
         Leverage agile frameworks to provide a robust synopsis for high level
         overviews. Iterative approaches to corporate strategy foster
         collaborative thinking to further the overall value proposition.
         Organically grow the holistic{" "}
       </div>
+      <div className="clicktovote">Click to vote your decision</div>
       <div>
         <img src={right} alt="John" className="tickbox w-134 h-134" />
       </div>

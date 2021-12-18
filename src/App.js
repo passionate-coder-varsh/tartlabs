@@ -6,6 +6,7 @@ import './stylesheets/Countdown.css';
 import './stylesheets/Sing.css';
 import './stylesheets/TopSingers.css';
 import './stylesheets/Leaderboard.css';
+import './stylesheets/MusigProFooter.css';
 import React from 'react';
 import Home from './components/Home';
 import Sing from './components/Sing';

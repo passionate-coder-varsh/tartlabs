@@ -3,13 +3,12 @@ import step1 from "../media/step1.png";
 import step2 from "../media/step2.png";
 import step3 from "../media/step3.png";
 import step4 from "../media/step4.png";
-import 'bootstrap/dist/css/bootstrap.css';
 
 const Sing = () => {
   return (
 
-        <section className="Container">
-          <div className="sing row">
+        <section>
+          <div className="sing">
               <div className="rectanglebox">
                 <h1 className="rectboxtext">MusigPro works like this....!</h1>
               </div>

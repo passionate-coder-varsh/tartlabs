@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.musigfooterstarter
+{
+    position: absolute;
+    width: 1440px;
+    height: 430px;
+    left: 0px;
+    top: 5223px;
+    display: flex;
+    align-items: center;
+    background: #FFFF90;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
