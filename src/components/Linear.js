@@ -3,6 +3,7 @@ import girl1 from "../media/girl1.png";
 import girl2 from "../media/girl2.png";
 import right from "../media/right.png";
 import wrong from "../media/wrong.png";
+import medal from "../media/medal.png";
 
 const Linear = () => {
   return (
@@ -25,10 +26,17 @@ const Linear = () => {
 
       <div className="whitebox1">
         <img src={girl1} alt="John" className="absolute  top-12 left-32" />
+        <div className="text-center font-bold text-gray-800 pl-8 pt-48 mb-3">Jonathan James<br/></div>
+        <img src={medal} alt="medal" className=" pl-11 float-left"/><span className="text-normal pl-5">Just the way you are the way yo...</span>
+        
+        
       </div>
+      
 
       <div className="whitebox2">
         <img src={girl2} alt="John" className="absolute  top-12 left-32" />
+        <div className="text-center font-bold text-gray-800 pl-8 pt-48 mb-3">Albert Flores<br/></div>
+        <img src={medal} alt="medal" className=" pl-11 float-left"/><span className="text-normal pl-5">Just the way you are the way yo...</span>
       </div>
     </div>
   );

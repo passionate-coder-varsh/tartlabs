@@ -32,6 +32,10 @@ font-size: 14px;
   border-radius: 60px;
 }
 
+.line{
+  width: 453px;
+}
+
 .ongoing {
   @apply font-extrabold h-12 text-4xl absolute text-center text-white not-italic;
   width: 95%;

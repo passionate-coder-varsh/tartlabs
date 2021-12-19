@@ -8,6 +8,7 @@ import iwanttosing from "../media/iwanttosing.png";
 
 const Leaderboard = () => {
   return (
+    
     <section>
       <div className="largeblack1 grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1">
         <div className="CompBox">
@@ -19,42 +20,47 @@ const Leaderboard = () => {
                       <span class=" font-extrabold pl-36 artcolor mt-10 absolute">Cups</span><br/>
                       <span class=" font-bold pl-36 mt-11 absolute leadername">Anna Kendrick</span><br/>
                       <pre class=" font-bold pl-36 mt-12 absolute leaderdate">Start: 6th July 2020  End: 27th July 2020</pre>
+                      <hr className="line mt-28 ml-4"/>
                     </td>
+                    
                   </tr>
-                  <hr/>
                   <tr>
-                    <td className= "pt-16">
-                      <img src={cups} alt="art" className="absolute pt-20 pl-4" />
-                      <span class=" font-extrabold pl-36 artcolor mt-24 absolute">Cups</span><br/>
-                      <span class=" font-bold pl-36 mt-24 absolute leadername">Anna Kendrick</span><br/>
-                      <pre class=" font-bold pl-36 mt-24 absolute leaderdate">Start: 6th July 2020  End: 27th July 2020</pre>
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td className= "pt-28">
-                      <img src={cups} alt="art" className="absolute pt-20 pl-4" />
-                      <span class=" font-extrabold pl-36 artcolor mt-24 absolute">Cups</span><br/>
-                      <span class=" font-bold pl-36 mt-24 absolute leadername">Anna Kendrick</span><br/>
-                      <pre class=" font-bold pl-36 mt-24 absolute leaderdate">Start: 6th July 2020  End: 27th July 2020</pre>
+                    <td>
+                      <img src={cups} alt="art" className="absolute pt-6 pl-4" />
+                      <span class=" font-extrabold pl-36 artcolor mt-9 absolute">Cups</span><br/>
+                      <span class=" font-bold pl-36 mt-10 absolute leadername">Anna Kendrick</span><br/>
+                      <pre class=" font-bold pl-36 mt-11 absolute leaderdate">Start: 6th July 2020  End: 27th July 2020</pre>
+                      <hr className="line mt-28 ml-4"/>
                     </td>
                   </tr>
 
                   <tr>
-                    <td className= "pt-28">
-                      <img src={cups} alt="art" className="absolute pt-20 pl-4" />
-                      <span class=" font-extrabold pl-36 artcolor mt-24 absolute">Cups</span><br/>
-                      <span class=" font-bold pl-36 mt-24 absolute leadername">Anna Kendrick</span><br/>
-                      <pre class=" font-bold pl-36 mt-24 absolute leaderdate">Start: 6th July 2020  End: 27th July 2020</pre>
+                    <td>
+                      <img src={cups} alt="art" className="absolute pt-6 pl-4" />
+                      <span class=" font-extrabold pl-36 artcolor mt-9 absolute">Cups</span><br/>
+                      <span class=" font-bold pl-36 mt-10 absolute leadername">Anna Kendrick</span><br/>
+                      <pre class=" font-bold pl-36 mt-11 absolute leaderdate">Start: 6th July 2020  End: 27th July 2020</pre>
+                      <hr className="line mt-28 ml-4"/>
                     </td>
                   </tr>
 
                   <tr>
-                    <td className= "pt-28">
-                      <img src={cups} alt="art" className="absolute pt-20 pl-4" />
-                      <span class=" font-extrabold pl-36 artcolor mt-24 absolute">Cups</span><br/>
-                      <span class=" font-bold pl-36 mt-24 absolute leadername">Anna Kendrick</span><br/>
-                      <pre class=" font-bold pl-36 mt-24 absolute leaderdate">Start: 6th July 2020  End: 27th July 2020</pre>
+                    <td>
+                      <img src={cups} alt="art" className="absolute pt-6 pl-4" />
+                      <span class=" font-extrabold pl-36 artcolor mt-9 absolute">Cups</span><br/>
+                      <span class=" font-bold pl-36 mt-10 absolute leadername">Anna Kendrick</span><br/>
+                      <pre class=" font-bold pl-36 mt-11 absolute leaderdate">Start: 6th July 2020  End: 27th July 2020</pre>
+                      <hr className="line mt-28 ml-4"/>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <img src={cups} alt="art" className="absolute pt-6 pl-4" />
+                      <span class=" font-extrabold pl-36 artcolor mt-9 absolute">Cups</span><br/>
+                      <span class=" font-bold pl-36 mt-10 absolute leadername">Anna Kendrick</span><br/>
+                      <pre class=" font-bold pl-36 mt-11 absolute leaderdate">Start: 6th July 2020  End: 27th July 2020</pre>
+                      <hr className="line mt-24 ml-4"/>
                     </td>
                   </tr>
                 </tbody>
