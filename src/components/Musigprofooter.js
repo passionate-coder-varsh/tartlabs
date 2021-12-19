@@ -5,7 +5,7 @@ import arrow from "../media/arrow.png";
 const Musigprofooter = () => {
   return (
   <div class="MusicFooter">
-    <div class="bg-white grid h-80 lg:grid-cols-4 2xl:grid-cols-4 sm:grid-cols-2 xs:grid-cols-1">
+    <div class="bg-white grid h-80 lg:grid-cols-4 md:grid-cols-1 2xl:grid-cols-4 sm:grid-cols-2 xs:grid-cols-1">
 
 
       <div class="relative lg:block items-center justify-center">
@@ -24,11 +24,11 @@ const Musigprofooter = () => {
 
             <div class="grid grid-cols-2 gap-1">
                 <a href="/home"><div class=" pt-10 hover:text-orange-500 ">Our Singers</div></a>
-                <a href="/home"><div class=" pt-10 hover:text-orange-500">Terms of Service</div></a>
-                <a href="/home"><div class=" pt-5 hover:text-orange-500">Blog</div></a>
-                <a href="/home"><div class=" pt-5 hover:text-orange-500">Contact Us</div></a>
+                {/* <a href="/home"><div class=" pt-10 hover:text-orange-500">Terms of Service</div></a>
+                <a href="/home"><div class=" pt-5 hover:text-orange-500">Blog</div></a> */}
+                {/* <a href="/home"><div class=" pt-5 hover:text-orange-500">Contact Us</div></a>
                 <a href="/home"><div class=" pt-5 hover:text-orange-500">About Us</div></a>
-                <a href="/home"><div class=" pt-5 hover:text-orange-500">Privacy Policy</div></a>
+                <a href="/home"><div class=" pt-5 hover:text-orange-500">Privacy Policy</div></a> */}
             </div>
             </div>
 
@@ -63,7 +63,7 @@ const Musigprofooter = () => {
 
     
 
-      <div class="relative h-80 lg:block">
+      <div class="relative lg:block">
       <div class="m-8">
           <h1 class="text-xl font-semibold text-gray-900 lg:text-2xl md:text-lg sm:text-lg xs:text-lg">
           Download MusigPro

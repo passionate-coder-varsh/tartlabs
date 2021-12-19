@@ -85,8 +85,6 @@
 }
 
   .homefront {
-    @apply absolute lg:w-192 md:w-96 sm:w-10 xs:w-10 lg:mt-6;
-    height: 132px;
     left: 379px;
     top: 627px;
     background: linear-gradient(

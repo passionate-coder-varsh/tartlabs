@@ -26,7 +26,7 @@ import { BrowserRouter as Router,} from 'react-router-dom';
 
           <Countdown />
           
-          <Sing />
+          {/* <Sing />
           
           <TopSingers />
 
@@ -36,7 +36,7 @@ import { BrowserRouter as Router,} from 'react-router-dom';
 
           <Musigprofooter/>
 
-          <Footer/>
+          <Footer/> */}
           
       </Router>
   );
