@@ -9440,6 +9440,13 @@
     "lodash.isequal" "^4.5.0"
     "prop-types" "^15.7.2"
 
+"react-countdown@^2.3.2":
+  "integrity" "sha512-Q4SADotHtgOxNWhDdvgupmKVL0pMB9DvoFcxv5AzjsxVhzOVxnttMbAywgqeOdruwEAmnPhOhNv/awAgkwru2w=="
+  "resolved" "https://registry.npmjs.org/react-countdown/-/react-countdown-2.3.2.tgz"
+  "version" "2.3.2"
+  dependencies:
+    "prop-types" "^15.7.2"
+
 "react-dev-utils@^12.0.0":
   "integrity" "sha512-xBQkitdxozPxt1YZ9O1097EJiVpwHr9FoAuEVURCKV0Av8NBERovJauzP7bo1ThvuhZ4shsQ1AJiu4vQpoT1AQ=="
   "resolved" "https://registry.npmjs.org/react-dev-utils/-/react-dev-utils-12.0.0.tgz"

@@ -25,6 +25,7 @@ const Sing = () => {
               Step - 1
             </h1>
             <div className="step1"></div>
+            
             <h1 class="font-lg h-20 text-md relative text-white not-italic text-center -top-10 p-20">
               Users sing along to their favourite song
             </h1>

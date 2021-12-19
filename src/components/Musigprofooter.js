@@ -4,16 +4,16 @@ import arrow from "../media/arrow.png";
 
 const Musigprofooter = () => {
   return (
-    <div className="min-h-screen flex items-center bg-white w-full absolute lg:top-280 md:top-300">
+    <div className=" flex items-center bg-white w-full absolute lg:top-280 md:top-300">
       <div className="flex-1 max-w-4-xl lg:mx-1 md:mx-4  mt-16">
         <ul
-          class="grid lg:grid-cols-4 
-        md:grid-cols-2 md:grid-rows-2
-        sm:grid-cols-2 sm:grid-rows-2
-        xs:grid-cols-2 xs:grid-rows-2
-        gap-4 grid-flow-row "
+          class="grid lg:grid-cols-2 xl:grid-cols-4
+        md:grid-cols-2
+        sm:grid-cols-1
+        xs:grid-cols-1
+        gap-4 "
         >
-          <li class="col-span-1 w-92  rounded-lg shadow-xl h-96">
+          <li class="col-span-1 w-92  rounded-lg h-96">
             <div class="absolute lg:block items-center justify-center">
               <img
                 class="sm:m-2 lg:m-14 lg:ml-14 md:m-6 xs:m-1"
@@ -23,7 +23,7 @@ const Musigprofooter = () => {
             </div>
           </li>
 
-          <li class=" rounded-lg shadow-xl  col-span-1 h-96">
+          <li class=" rounded-lg  col-span-1 h-96">
             <div class="m-8">
               <h1 class="text-2xl font-semibold text-gray-900 sm:mt-8 lg:text-2xl md:text-lg sm:text-lg xs:text-lg">
                 Information
@@ -54,7 +54,7 @@ const Musigprofooter = () => {
             </div>
           </li>
 
-          <li class=" rounded-lg shadow-xl col-span-1 h-96">
+          <li class=" rounded-lg col-span-1 h-96">
             <div class="m-8">
               <h1 class="text-2xl font-semibold text-gray-900 sm:mt-8 lg:text-2xl md:text-lg sm:text-lg xs:text-lg">
                 Follow Us
@@ -85,7 +85,7 @@ const Musigprofooter = () => {
             </div>
           </li>
 
-          <li class=" rounded-lg shadow-xl h-96 col-span-1">
+          <li class=" rounded-lg  h-96 col-span-1">
             <div class="m-8">
               <h1 class="text-xl font-semibold text-gray-900 lg:text-2xl md:text-lg sm:text-lg xs:text-lg">
                 Download MusigPro

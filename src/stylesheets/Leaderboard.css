@@ -6,9 +6,18 @@
   color: #ff4d08;
 }
 
+.paddingrow1{
+  @apply pt-12 pl-12 font-bold;
+}
+
 .leadername{
   color: #C3C5D1;
   font-size: 16px;
+}
+
+.leaderpush{
+  @apply absolute;
+  top:3950px;
 }
 
 .leaderdate{

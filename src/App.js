@@ -26,19 +26,19 @@ import { BrowserRouter as Router,} from 'react-router-dom';
 
           <Countdown />
           
-           <Sing />
+          <Sing />
           
-           <Linear />
+        <Linear />
 
-          <TopSingers />
+         <TopSingers />
 
-      {/* <Leaderboard /> */}
+       <Leaderboard />
 
 
 
           <Musigprofooter/>
-   {/* 
-          <Footer/> */}
+   
+          <Footer/>
           
       </Router>
   );

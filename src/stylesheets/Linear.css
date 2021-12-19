@@ -3,11 +3,9 @@
 @tailwind utilities;
 
 /* ℹ️ Base selector: .linear */
-.linear {
+.linearbackground {
   @apply absolute left-0 w-full;
-  height: 745px;
-  top: 1910px;
-  opacity: 0.8;
+
   background: linear-gradient(90.05deg, #4900D8 0.04%, #FF0E6A 101%), #FFFFFF;
 }
 

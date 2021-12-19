@@ -7,16 +7,16 @@ import medal from "../media/medal.png";
 
 const Linear = () => {
   return (
-    <div class="min-h-screen flex items-center bg-rose-400 absolute lg:top-200 md:top-220">
-      <div className="flex-1 max-w-4-xl mx-20 p-10 mt-16">
+    <div class="min-h-screen flex items-center linearbackground absolute lg:top-200 md:top-220 ">
+      <div className="flex-1 max-w-4-xl mx-20 p-20">
         <ul
           class="grid lg:grid-cols-3 lg:grid-rows-3 
         md:grid-cols-3 md:grid-rows-3
-        lg:gap-x-14 grid-flow-row lg:gap-y-6
+        lg:gap-x-18 grid-flow-row lg:gap-y-9
         md:gap-x-8 md:gap-y-8"
         >
-          <li class="col-start-1 col-span-3 row-start-1 row-span-6 w-92 h-24">
-            <div> Do you want to vote Our singers song </div>
+          <li class="col-start-1 col-span-3 row-start-1 row-span-6 w-92 h-24 lg:p-8 md:pt-1 text-white">
+            <div class="font-extrabold text-4xl"> Do you want to vote Our singers song </div>
             <div>
               <br />
               Leverage agile frameworks to provide a robust synopsis for high
@@ -26,7 +26,7 @@ const Linear = () => {
             </div>
           </li>
 
-          <li class="bg-gray-800 rounded-lg shadow-xl h-72 lg:col-span-1 md:col-span-3">
+          <li class="bg-gray-800 rounded-lg shadow-xl h-96 lg:col-span-1 md:col-span-3">
             <h1 class="font-extrabold h-32 text-lg relative text-orange-500 not-italic w-48 left-6 top-6">
               Step - 1
             </h1>
@@ -36,9 +36,9 @@ const Linear = () => {
             </h1>
           </li>
 
-          <li class="rounded-lg shadow-xl h-72  lg:col-span-2 md:col-span-4 px-14">
+          <li class="rounded-lg shadow-xl h-96  lg:col-span-2 md:col-span-4 px-14">
             <div class="grid grid-cols-2 gap-6">
-              <li class="bg-white rounded-lg shadow-xl h-72  lg:col-span-1">
+              <li class="bg-white rounded-lg shadow-xl h-96  lg:col-span-1">
                 <div class="grid grid-cols-3">
                   <div class="col-span-1"></div>
                   <div class="col-span-1 pt-5">
@@ -57,7 +57,7 @@ const Linear = () => {
                 </span>
               </li>
 
-              <li class="bg-white rounded-lg shadow-xl h-72  lg:col-span-1">
+              <li class="bg-white rounded-lg shadow-xl h-96  lg:col-span-1">
                 <div class="grid grid-cols-3">
                   <div class="col-span-1"></div>
                   <div class="col-span-1 pt-5">
