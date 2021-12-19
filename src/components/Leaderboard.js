@@ -18,17 +18,6 @@ const Leaderboard = () => {
           <li class="col-start-1 col-span-2 row-start-1 row-span-6 w-92 h-192 bg-white rounded-lg shadow-xl">
 
 
-
-
-
-
-
-
-
-
-
-
-
           </li>
 
 
@@ -97,8 +86,8 @@ const Leaderboard = () => {
                     </span>
                   </td>
                   <td>
-                    <img src={auto} alt="art" className="absolute pt-11 " />
-                    <span className="float-right pt-12 pl-10 font-bold ">
+                    <img src={auto} alt="art" className="absolute pt-11 pl-10" />
+                    <span className="float-right pt-11 pl-20 font-bold ">
                       20K
                     </span>
                   </td>
@@ -123,21 +112,20 @@ const Leaderboard = () => {
                       John Doe
                     </span>
                   </td>
-                  <td className="font-bold pt-14">95.3%</td>
+                  <td className="font-bold pt-14 pl-12">95.3%</td>
                   <td>
-                    <img src={art} alt="art" className="absolute pt-10 " />
-                    <span className="float-right pt-12 pr-7 font-bold artcolor">
+                    <img src={art} alt="art" className="absolute pt-10 pl-12" />
+                    <span className="float-right pt-12 pr-7 pl-20 font-bold artcolor">
                       20K
                     </span>
                   </td>
                   <td>
-                    <img src={auto} alt="art" className="absolute pt-11 " />
-                    <span className="float-right pt-12 pl-10 font-bold ">
+                    <img src={auto} alt="art" className="absolute pt-11 pl-10" />
+                    <span className="float-right pt-11 pl-20 font-bold ">
                       20K
                     </span>
                   </td>
-                </tr>
-                <tr>
+                </tr>                <tr>
                   <th scope="row" className="paddingrow1">
                     1
                   </th>
@@ -157,21 +145,20 @@ const Leaderboard = () => {
                       John Doe
                     </span>
                   </td>
-                  <td className="font-bold pt-14">95.3%</td>
+                  <td className="font-bold pt-14 pl-12">95.3%</td>
                   <td>
-                    <img src={art} alt="art" className="absolute pt-10 " />
-                    <span className="float-right pt-12 pr-7 font-bold artcolor">
+                    <img src={art} alt="art" className="absolute pt-10 pl-12" />
+                    <span className="float-right pt-12 pr-7 pl-20 font-bold artcolor">
                       20K
                     </span>
                   </td>
                   <td>
-                    <img src={auto} alt="art" className="absolute pt-11 " />
-                    <span className="float-right pt-12 pl-10 font-bold ">
+                    <img src={auto} alt="art" className="absolute pt-11 pl-10" />
+                    <span className="float-right pt-11 pl-20 font-bold ">
                       20K
                     </span>
                   </td>
-                </tr>
-                <tr>
+                </tr>                <tr>
                   <th scope="row" className="paddingrow1">
                     1
                   </th>
@@ -191,21 +178,20 @@ const Leaderboard = () => {
                       John Doe
                     </span>
                   </td>
-                  <td className="font-bold pt-14">95.3%</td>
+                  <td className="font-bold pt-14 pl-12">95.3%</td>
                   <td>
-                    <img src={art} alt="art" className="absolute pt-10 " />
-                    <span className="float-right pt-12 pr-7 font-bold artcolor">
+                    <img src={art} alt="art" className="absolute pt-10 pl-12" />
+                    <span className="float-right pt-12 pr-7 pl-20 font-bold artcolor">
                       20K
                     </span>
                   </td>
                   <td>
-                    <img src={auto} alt="art" className="absolute pt-11 " />
-                    <span className="float-right pt-12 pl-10 font-bold ">
+                    <img src={auto} alt="art" className="absolute pt-11 pl-10" />
+                    <span className="float-right pt-11 pl-20 font-bold ">
                       20K
                     </span>
                   </td>
-                </tr>
-                <tr>
+                </tr>                <tr>
                   <th scope="row" className="paddingrow1">
                     1
                   </th>
@@ -225,21 +211,20 @@ const Leaderboard = () => {
                       John Doe
                     </span>
                   </td>
-                  <td className="font-bold pt-14">95.3%</td>
+                  <td className="font-bold pt-14 pl-12">95.3%</td>
                   <td>
-                    <img src={art} alt="art" className="absolute pt-10 " />
-                    <span className="float-right pt-12 pr-7 font-bold artcolor">
+                    <img src={art} alt="art" className="absolute pt-10 pl-12" />
+                    <span className="float-right pt-12 pr-7 pl-20 font-bold artcolor">
                       20K
                     </span>
                   </td>
                   <td>
-                    <img src={auto} alt="art" className="absolute pt-11 " />
-                    <span className="float-right pt-12 pl-10 font-bold ">
+                    <img src={auto} alt="art" className="absolute pt-11 pl-10" />
+                    <span className="float-right pt-11 pl-20 font-bold ">
                       20K
                     </span>
                   </td>
-                </tr>
-                <tr>
+                </tr>                <tr>
                   <th scope="row" className="paddingrow1">
                     1
                   </th>
@@ -259,21 +244,20 @@ const Leaderboard = () => {
                       John Doe
                     </span>
                   </td>
-                  <td className="font-bold pt-14">95.3%</td>
+                  <td className="font-bold pt-14 pl-12">95.3%</td>
                   <td>
-                    <img src={art} alt="art" className="absolute pt-10 " />
-                    <span className="float-right pt-12 pr-7 font-bold artcolor">
+                    <img src={art} alt="art" className="absolute pt-10 pl-12" />
+                    <span className="float-right pt-12 pr-7 pl-20 font-bold artcolor">
                       20K
                     </span>
                   </td>
                   <td>
-                    <img src={auto} alt="art" className="absolute pt-11 " />
-                    <span className="float-right pt-12 pl-10 font-bold ">
+                    <img src={auto} alt="art" className="absolute pt-11 pl-10" />
+                    <span className="float-right pt-11 pl-20 font-bold ">
                       20K
                     </span>
                   </td>
-                </tr>
-                <tr>
+                </tr>                <tr>
                   <th scope="row" className="paddingrow1">
                     1
                   </th>
@@ -293,21 +277,20 @@ const Leaderboard = () => {
                       John Doe
                     </span>
                   </td>
-                  <td className="font-bold pt-14">95.3%</td>
+                  <td className="font-bold pt-14 pl-12">95.3%</td>
                   <td>
-                    <img src={art} alt="art" className="absolute pt-10 " />
-                    <span className="float-right pt-12 pr-7 font-bold artcolor">
+                    <img src={art} alt="art" className="absolute pt-10 pl-12" />
+                    <span className="float-right pt-12 pr-7 pl-20 font-bold artcolor">
                       20K
                     </span>
                   </td>
                   <td>
-                    <img src={auto} alt="art" className="absolute pt-11 " />
-                    <span className="float-right pt-12 pl-10 font-bold ">
+                    <img src={auto} alt="art" className="absolute pt-11 pl-10" />
+                    <span className="float-right pt-11 pl-20 font-bold ">
                       20K
                     </span>
                   </td>
-                </tr>
-                <tr>
+                </tr>                <tr>
                   <th scope="row" className="paddingrow1">
                     1
                   </th>
@@ -327,122 +310,53 @@ const Leaderboard = () => {
                       John Doe
                     </span>
                   </td>
-                  <td className="font-bold pt-14">95.3%</td>
+                  <td className="font-bold pt-14 pl-12">95.3%</td>
                   <td>
-                    <img src={art} alt="art" className="absolute pt-10 " />
-                    <span className="float-right pt-12 pr-7 font-bold artcolor">
+                    <img src={art} alt="art" className="absolute pt-10 pl-12" />
+                    <span className="float-right pt-12 pr-7 pl-20 font-bold artcolor">
                       20K
                     </span>
                   </td>
                   <td>
-                    <img src={auto} alt="art" className="absolute pt-11 " />
-                    <span className="float-right pt-12 pl-10 font-bold ">
+                    <img src={auto} alt="art" className="absolute pt-11 pl-10" />
+                    <span className="float-right pt-11 pl-20 font-bold ">
+                      20K
+                    </span>
+                  </td>
+                </tr>                <tr>
+                  <th scope="row" className="paddingrow1">
+                    1
+                  </th>
+                  <td>
+                    {" "}
+                    <img
+                      src={johndoe}
+                      alt="Johndoe"
+                      className="absolute pt-12"
+                    />
+                    <img
+                      src={badge}
+                      alt="Johndoe"
+                      className="absolute pl-9 pt-10"
+                    />
+                    <span className="float-right pr-14 pt-14 font-bold">
+                      John Doe
+                    </span>
+                  </td>
+                  <td className="font-bold pt-14 pl-12">95.3%</td>
+                  <td>
+                    <img src={art} alt="art" className="absolute pt-10 pl-12" />
+                    <span className="float-right pt-12 pr-7 pl-20 font-bold artcolor">
+                      20K
+                    </span>
+                  </td>
+                  <td>
+                    <img src={auto} alt="art" className="absolute pt-11 pl-10" />
+                    <span className="float-right pt-11 pl-20 font-bold ">
                       20K
                     </span>
                   </td>
                 </tr>
-                <tr>
-                    <th scope="row" className="paddingrow1">
-                      1
-                    </th>
-                    <td>
-                      {" "}
-                      <img
-                        src={johndoe}
-                        alt="Johndoe"
-                        className="absolute pt-12"
-                      />
-                      <img
-                        src={badge}
-                        alt="Johndoe"
-                        className="absolute pl-9 pt-10"
-                      />
-                      <span className="float-right pr-14 pt-14 font-bold">
-                        John Doe
-                      </span>
-                    </td>
-                    <td className="font-bold pt-14">95.3%</td>
-                    <td>
-                      <img src={art} alt="art" className="absolute pt-10 " />
-                      <span className="float-right pt-12 pr-7 font-bold artcolor">
-                        20K
-                      </span>
-                    </td>
-                    <td>
-                      <img src={auto} alt="art" className="absolute pt-11 " />
-                      <span className="float-right pt-12 pl-10 font-bold ">
-                        20K
-                      </span>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row" className="paddingrow1">
-                      1
-                    </th>
-                    <td>
-                      {" "}
-                      <img
-                        src={johndoe}
-                        alt="Johndoe"
-                        className="absolute pt-12"
-                      />
-                      <img
-                        src={badge}
-                        alt="Johndoe"
-                        className="absolute pl-9 pt-10"
-                      />
-                      <span className="float-right pr-14 pt-14 font-bold">
-                        John Doe
-                      </span>
-                    </td>
-                    <td className="font-bold pt-14">95.3%</td>
-                    <td>
-                      <img src={art} alt="art" className="absolute pt-10 " />
-                      <span className="float-right pt-12 pr-7 font-bold artcolor">
-                        20K
-                      </span>
-                    </td>
-                    <td>
-                      <img src={auto} alt="art" className="absolute pt-11 " />
-                      <span className="float-right pt-12 pl-10 font-bold ">
-                        20K
-                      </span>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row" className="paddingrow1">
-                      1
-                    </th>
-                    <td>
-                      {" "}
-                      <img
-                        src={johndoe}
-                        alt="Johndoe"
-                        className="absolute pt-12"
-                      />
-                      <img
-                        src={badge}
-                        alt="Johndoe"
-                        className="absolute pl-9 pt-10"
-                      />
-                      <span className="float-right pr-14 pt-14 font-bold">
-                        John Doe
-                      </span>
-                    </td>
-                    <td className="font-bold pt-14">95.3%</td>
-                    <td>
-                      <img src={art} alt="art" className="absolute pt-10 " />
-                      <span className="float-right pt-12 pr-7 font-bold artcolor">
-                        20K
-                      </span>
-                    </td>
-                    <td>
-                      <img src={auto} alt="art" className="absolute pt-11 " />
-                      <span className="float-right pt-12 pl-10 font-bold ">
-                        20K
-                      </span>
-                    </td>
-                  </tr>
               </tbody>
             </table>
 
@@ -490,10 +404,12 @@ const Leaderboard = () => {
             The user can share their performance to gather likes and rise up the
          leaderboard through popularity
             </h1>
+            
           </li>
+         
         </ul>
+        </div>
       </div>
-    </div>
 
     // <section>
     //   <div className="largeblack1 grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1">
