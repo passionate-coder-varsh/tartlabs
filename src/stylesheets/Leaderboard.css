@@ -21,6 +21,11 @@ font-size: 14px;
   margin-top: 10%;
 }
 
+.own{
+  @apply absolute;
+
+}
+
 /* ℹ️ Base selector: .viewmore */
 .viewmore {
   @apply font-extrabold h-6 text-lg absolute text-center not-italic w-24;

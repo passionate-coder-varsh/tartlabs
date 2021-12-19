@@ -16,6 +16,11 @@
   padding-left: 1.25%;
 }
 
+.topsingpush{
+  @apply absolute;
+  top: 2700px;
+}
+
 .shares{
   margin-left: 82%;
 }

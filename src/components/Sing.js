@@ -66,40 +66,6 @@ const Sing = () => {
       </div>
     </div>
 
-    // <div className="sing">
-    //
-    //
-
-    // <div className="box1">
-
-    // </div>
-
-    // <div className="box2">
-    //   <div className="steps">Step - 2</div>
-    //   <img src={step4} alt="John" className="absolute  top-12 left-36" />
-    //   <div className="stepstext">
-    //     Analysis - Our Patent pending algorithm rates the performance for
-    //     Pitch, Rhythm, Timbre & Vibrato
-    //   </div>
-    // </div>
-
-    // <div className="box3">
-    //   <div className="steps">Step - 3</div>
-    //   <img src={step3} alt="John" className="absolute  top-16 left-36" />
-    //   <div className="stepstext">
-    //     
-    //   </div>
-    // </div>
-
-    // <div className="box4">
-    //   <div className="steps">Step - 4</div>
-    //   <img src={step2} alt="John" className="absolute  top-16 left-32" />
-    //   <div className="stepstext">
-    //     The user can share their performance to gather likes and rise up the
-    //     leaderboard through popularity
-    //   </div>
-    // </div>
-    // </div>
   );
 };
 export default Sing;

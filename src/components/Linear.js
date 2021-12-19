@@ -7,7 +7,7 @@ import medal from "../media/medal.png";
 
 const Linear = () => {
   return (
-    <div class="min-h-screen flex items-center bg-rose-400 linearpush lg:top-200 md:top-220">
+    <div class="min-h-screen flex items-center bg-rose-400 absolute lg:top-200 md:top-220">
       <div className="flex-1 max-w-4-xl mx-20 p-10 mt-16">
         <ul
           class="grid lg:grid-cols-3 lg:grid-rows-3 

@@ -30,14 +30,14 @@ import { BrowserRouter as Router,} from 'react-router-dom';
           
            <Linear />
 
-          {/*<TopSingers />
+          <TopSingers />
 
-          <Leaderboard />
+      {/* <Leaderboard /> */}
 
 
 
           <Musigprofooter/>
-
+   {/* 
           <Footer/> */}
           
       </Router>

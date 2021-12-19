@@ -2,12 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* ℹ️ Base selector: .sing */
-.sing {
-  @apply bg-black absolute left-0 w-full;
-  height: 882px;
-  top: 1028px;
-}
 
 .rectanglebox {
   @apply absolute;
@@ -74,50 +68,4 @@
   height: 100%;
 
   background-image: url("/public/Group2.png");
-}
-
-/* ℹ️ Base selector: .box1 */
-.box1 {
-  @apply absolute;
-  width: 370px;
-  height: 306px;
-  left: 535px;
-  top: 127px;
-  background-color: rgba(36, 34, 40, 1);
-  box-shadow: -8px 9px 34px rgba(3, 3, 3, 0.1);
-}
-
-/* ℹ️ Base selector: .box2 */
-
-.box2 {
-  @apply absolute;
-  width: 370px;
-  height: 306px;
-  left: 935px;
-  top: 127px;
-  background-color: rgba(36, 34, 40, 1);
-  box-shadow: -8px 9px 34px rgba(3, 3, 3, 0.1);
-}
-
-/* ℹ️ Base selector: .box3 */
-
-.box3 {
-  @apply absolute;
-  width: 370px;
-  height: 306px;
-  left: 535px;
-  top: 461px;
-  background-color: rgba(36, 34, 40, 1);
-  box-shadow: -8px 9px 34px rgba(3, 3, 3, 0.1);
-}
-
-/* ℹ️ Base selector: .box4 */
-.box4 {
-  @apply absolute;
-  width: 370px;
-  height: 306px;
-  left: 935px;
-  top: 461px;
-  background-color: rgba(36, 34, 40, 1);
-  box-shadow: -8px 9px 34px rgba(3, 3, 3, 0.1);
 }
