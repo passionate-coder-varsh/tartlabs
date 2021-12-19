@@ -23,21 +23,29 @@
 }
 
 .rectboxtext {
-  @apply font-extrabold h-32 text-4xl relative text-white not-italic w-48;
-  left: 68px;
-  top: 35px;
   line-height: 43px;
+}
+
+.singpush{
+  @apply absolute;
+  top:1028px;
+}
+
+.linearpush{
+  @apply absolute;
+  
 }
 
 /* ℹ️ Base selector: .singergirl */
 .singergirl {
-  @apply absolute;
+  position: absolute;
   width: 383px;
   height: 439px;
-  left: 95px;
-  top: 328px;
-  background-image: url("/public/siger\ 1.png");
+  left: 68px;
+  top: 273px;
   transform: scaleX(1);
+  background-image: url("/public/siger\ 1.png") ;
+
 }
 
 .steps {

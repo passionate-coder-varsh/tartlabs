@@ -56,7 +56,10 @@ module.exports = {
       72: '18rem',
       80: '20rem',
       96: '24rem',
+      156:'38rem',
       192:'48rem',
+      200:'120rem',
+      220:'191rem'
     },
     screens: {
       xs: '375px',

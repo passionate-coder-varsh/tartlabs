@@ -5,7 +5,11 @@ import arrow from "../media/arrow.png";
 const Musigprofooter = () => {
   return (
   <div class="MusicFooter">
-    <div class="bg-white grid h-80 lg:grid-cols-4 md:grid-cols-1 2xl:grid-cols-4 sm:grid-cols-2 xs:grid-cols-1">
+    <div className="min-h-screen flex items-center bg-black singpush ">
+      <div className="flex-1 max-w-4-xl mx-20 p-10 mt-16">
+
+
+    <div class="bg-amber-200 grid h-80 lg:grid-cols-4 md:grid-cols-1 2xl:grid-cols-4 sm:grid-cols-2 xs:grid-cols-1">
 
 
       <div class="relative lg:block items-center justify-center">
@@ -81,6 +85,8 @@ const Musigprofooter = () => {
 
 
     </div>
+    </div>
+</div>
   </div>
   );
 };
