@@ -4,53 +4,7 @@
 
 /* ℹ️ Base selector: .linear */
 .linearbackground {
-  @apply absolute left-0 w-full;
-
   background: linear-gradient(90.05deg, #4900D8 0.04%, #FF0E6A 101%), #FFFFFF;
-}
-
-/* ℹ️ Base selector: .whitebox1 */
-.whitebox1 {
-  position: absolute;
-  box-sizing: border-box;
-  border-width: 1px;
-  border-style: solid;
-  width: 370px;
-  height: 414px;
-  left: 609px;
-  top: 257px;
-  background-color: rgba(251, 251, 251, 1);
-  border-color: rgba(196, 196, 196, 1);
-  box-shadow: -8px 9px 34px rgb(3 3 3 / 10%);
-  border-radius: 30px;
-}
-
-/* ℹ️ Base selector: .whitebox2 */
-.whitebox2 {
-  position: absolute;
-  box-sizing: border-box;
-  border-width: 1px;
-  border-style: solid;
-  width: 370px;
-  height: 414px;
-  left: 1015px;
-  top: 259px;
-  background-color: rgba(251, 251, 251, 1);
-  border-color: rgba(196, 196, 196, 1);
-  box-shadow: -8px 9px 34px rgb(3 3 3 / 10%);
-  border-radius: 30px;
-}
-/* ℹ️ Base selector: .tickbox */
-.tickbox {
-  top: 432px;
-}
-
-/* ℹ️ Base selector: .crossbox */
-.crossbox {
-  position: absolute;
-  left: 323.38px;
-  top: 432px;
-  border-radius: 75px;
 }
 
 .doyouwanttovote{
@@ -82,18 +36,4 @@
 
 
   color: #FFFFFF;
-}
-.clicktovote{
-  position: absolute;
-  width: 324px;
-  height: 95px;
-  left: 195px;
-  top: 342px;
-  font-family: Sen;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 36px;
-  line-height: 43px;
-  color: #FFDF34;
-
 }

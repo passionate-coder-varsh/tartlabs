@@ -49,10 +49,7 @@ const CountDownTimer = ({dayshoursMinSecs}) => {
 
             </div>
 
-            {/* <p>{`${dys.toString().padStart(2, '0')}:${hrs.toString().padStart(2, '0')}:${mins
-            .toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`}</p> 
 
-<p>Days Hours Minutes Seconds</p>  */}
         </div>
     );
 }

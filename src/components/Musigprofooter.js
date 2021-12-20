@@ -16,7 +16,7 @@ import iwanttosing from "../media/iwanttosing.png";
 
 const Musigprofooter = () => {
   return (
-    <div className=" flex items-center bg-white w-full h-auto absolute lg:top-280 md:top-300">
+    <div className=" flex items-center bg-white w-full h-auto absolute top-360">
       <div className="flex-1 max-w-4-xl">
         <div
           className="min-h-screen w-full items-center bg-black lg:pl-52 lg:pr-52 lg:pt-20
