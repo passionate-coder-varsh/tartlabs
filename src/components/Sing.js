@@ -236,7 +236,7 @@ const Sing = () => {
                   Click to vote your decision
                 </li>
                 <li class="h-40 col-span-1 row-span-2">
-                  <img src={right} alt="John" />
+                  <img src={right} alt="John" class="hover:border-current" />
                 </li>
                 <li class="h-40 col-span-1 row-span-2">
                   <img src={wrong} alt="John" />
@@ -269,17 +269,17 @@ const Sing = () => {
                   />
                 </div>
 
-                <div class="col-span-3 ml-16 mr-16 mt-3 p-4 rounded-2xl shadow-xl bg-green-500 text-white content-center">
-                  <div class="text-center">
+                <div class="col-span-3 ml-16 mr-16 mt-3 p-4 rounded-2xl shadow-xl bg-green-500 text-white content-center hover:bg-green-400">
+                  <button class="text-center">
                     <img
                       src={buttontick}
                       alt="medal"
                       className=" pl-16 float-left"
                     />{" "}
-                    <span class="pr-20">Vote</span>
+                    <span class="pr-20">Vote</span></button>
                   </div>
                 </div>
-              </div>
+              
             </li>
 
             <li class="bg-white rounded-lg  h-97 col-span-1">
@@ -307,8 +307,8 @@ const Sing = () => {
                   />
                 </div>
 
-                <div class="col-span-3 ml-16 mr-16 mt-3 p-4 rounded-2xl shadow-xl bg-green-400 text-white content-center">
-                  <div class="text-center">Vote</div>
+                <div class="col-span-3 ml-16 mr-16 mt-3 p-4 rounded-2xl shadow-xl bg-green-500 text-white content-center hover:bg-green-400">
+                  <button class="text-center pl-24">Vote</button>
                 </div>
               </div>
             </li>

@@ -307,7 +307,7 @@ const Musigprofooter = () => {
             class="grid lg:grid-cols-3
         md:grid-cols-2
         sm:grid-cols-2
-        xs:grid-cols-2
+        xs:grid-cols-2 xs:grid-rows-2
         gap-8 "
           >
             <li class="col-start-1 lg:col-span-6 md:col-span-3 sm:col-span-2 xs:col-span-2 w-92 h-24 lg:p-0 md:pt-1 text-center text-white">
@@ -340,7 +340,83 @@ const Musigprofooter = () => {
         md:grid-cols-4 md:grid-rows-6
         gap-8 grid-flow-row "
           >
-            <li class="col-start-1 col-span-2 ml-20  row-start-1 row-span-6 h-192 bg-white rounded-lg shadow-xl"></li>
+            <li class="col-start-1 col-span-2 ml-20  row-start-1 row-span-6 h-192 bg-white rounded-lg shadow-xl">
+            <div class="grid grid-cols-3">
+            <div>
+            <img
+                        src={cups}
+                        alt="art"
+                        className="absolute pt-5 pl-5"
+                      />
+            </div>
+            <div class="col-span-2 mt-10">
+            <span class=" font-extrabold text-orange-600 ">Cups</span><br/>
+            <span class=" font-bold text-gray-400 ">Anna Kendrick</span><br/>
+            <pre class="text-sm font-semibold">Start:6th July 2020  End:27th July 2020</pre>
+            </div>
+           </div>
+           <hr class="w-97 mt-10 ml-10"/>
+           <div class="grid grid-cols-3">
+            <div>
+            <img
+                        src={cups}
+                        alt="art"
+                        className="absolute pt-5 pl-5"
+                      />
+            </div>
+            <div class="col-span-2 mt-10">
+            <span class=" font-extrabold text-orange-600 ">Cups</span><br/>
+            <span class=" font-bold text-gray-400 ">Anna Kendrick</span><br/>
+            <pre class="text-sm font-semibold">Start:6th July 2020  End:27th July 2020</pre>
+            </div>
+           </div>
+           <hr class="w-97 mt-10 ml-10"/>
+           <div class="grid grid-cols-3">
+            <div>
+            <img
+                        src={cups}
+                        alt="art"
+                        className="absolute pt-5 pl-5"
+                      />
+            </div>
+            <div class="col-span-2 mt-10">
+            <span class=" font-extrabold text-orange-600 ">Cups</span><br/>
+            <span class=" font-bold text-gray-400 ">Anna Kendrick</span><br/>
+            <pre class="text-sm font-semibold">Start:6th July 2020  End:27th July 2020</pre>
+            </div>
+           </div>
+           <hr class="w-97 mt-10 ml-10"/>
+           <div class="grid grid-cols-3">
+            <div>
+            <img
+                        src={cups}
+                        alt="art"
+                        className="absolute pt-5 pl-5"
+                      />
+            </div>
+            <div class="col-span-2 mt-10">
+            <span class=" font-extrabold text-orange-600 ">Cups</span><br/>
+            <span class=" font-bold text-gray-400 ">Anna Kendrick</span><br/>
+            <pre class="text-sm font-semibold">Start:6th July 2020  End:27th July 2020</pre>
+            </div>
+           </div>
+           <hr class="w-97 mt-10 ml-10"/>
+           <div class="grid grid-cols-3">
+            <div>
+            <img
+                        src={cups}
+                        alt="art"
+                        className="absolute pt-5 pl-5"
+                      />
+            </div>
+            <div class="col-span-2 mt-10">
+            <span class=" font-extrabold text-orange-600 ">Cups</span><br/>
+            <span class=" font-bold text-gray-400 ">Anna Kendrick</span><br/>
+            <pre class="text-sm font-semibold">Start:6th July 2020  End:27th July 2020</pre>
+            </div>
+           </div>
+           <hr class="w-97 mt-10 ml-10"/>
+            </li>
 
             <li
               class="bg-white rounded-lg shadow-xl h-192 w-192 lg:col-start-3 lg:col-span-3 lg:row-start-1 lg:row-span-6
@@ -349,41 +425,41 @@ const Musigprofooter = () => {
           xs:row-start-7 xs:col-start-1 xs:row-span-6
           "
             >
-              <table class="overflow-scroll">
-                <thead class="tableheadbg">
+              <table class="table overflow-scroll w-full rounded-full">
+                <thead class="tableheadbg w-full">
                   <tr>
                     <th
                       scope="col-2"
-                      className="text-center pl-16 pr-14 pt-6 text-white"
+                      className="text-center pl-16 pr-14 pt-6 pb-5 text-white"
                     >
                       Rank
                     </th>
                     <th
                       scope="col-4"
-                      className="text-center pr-20 pt-6 text-white"
+                      className="text-center pr-20 pt-6 pb-5 text-white"
                     >
                       Singer Name
                     </th>
                     <th
                       scope="col-2"
-                      className="text-center pr-14 pt-6 text-white"
+                      className="text-center pr-14 pt-6 pb-5 text-white"
                     >
                       AI Score
                     </th>
                     <th
                       scope="col-2"
-                      className="text-center pr-12 pt-6 text-white"
+                      className="text-center pr-12 pt-6 pb-5 text-white"
                     >
                       Likes
                     </th>
-                    <th scope="col-2" className=" text-center pt-6 text-white">
+                    <th scope="col-2" className=" text-center pt-6 pb-5 text-white">
                       Song
                     </th>
                   </tr>
                 </thead>
                 <tbody className="tbody ">
                   <tr>
-                    <th scope="row" className="paddingrow1 pt-8">
+                    <th scope="row" className="paddingrow1 pt-8 pl-20">
                       1
                     </th>
                     <td>
@@ -402,14 +478,14 @@ const Musigprofooter = () => {
                         John Doe
                       </span>
                     </td>
-                    <td className="font-bold pt-10 pl-12">95.3%</td>
+                    <td className="font-bold pt-8 pl-5">95.3%</td>
                     <td>
                       <img
                         src={art}
                         alt="art"
-                        className="absolute pt-6 pl-12"
+                        className="absolute pt-5 pl-5"
                       />
-                      <span className="float-right pt-8 pr-7 pl-20 font-bold artcolor">
+                      <span className="float-right pt-7 pr-14 font-bold artcolor">
                         20K
                       </span>
                     </td>
@@ -417,15 +493,15 @@ const Musigprofooter = () => {
                       <img
                         src={auto}
                         alt="art"
-                        className="absolute pt-7 pl-10"
+                        className="absolute pt-7 pl-6"
                       />
-                      <span className="float-right pt-7 pl-20 font-bold ">
+                      <span className="float-right pt-7 pr-7 font-bold ">
                         20K
                       </span>
                     </td>
                   </tr>
                   <tr>
-                    <th scope="row" className="paddingrow1 pt-8">
+                    <th scope="row" className="paddingrow1 pt-8 pl-20">
                       1
                     </th>
                     <td>
@@ -444,14 +520,14 @@ const Musigprofooter = () => {
                         John Doe
                       </span>
                     </td>
-                    <td className="font-bold pt-10 pl-12">95.3%</td>
+                    <td className="font-bold pt-8 pl-5">95.3%</td>
                     <td>
                       <img
                         src={art}
                         alt="art"
-                        className="absolute pt-6 pl-12"
+                        className="absolute pt-5 pl-5"
                       />
-                      <span className="float-right pt-8 pr-7 pl-20 font-bold artcolor">
+                      <span className="float-right pt-7 pr-14 font-bold artcolor">
                         20K
                       </span>
                     </td>
@@ -459,15 +535,15 @@ const Musigprofooter = () => {
                       <img
                         src={auto}
                         alt="art"
-                        className="absolute pt-7 pl-10"
+                        className="absolute pt-7 pl-6"
                       />
-                      <span className="float-right pt-7 pl-20 font-bold ">
+                      <span className="float-right pt-7 pr-7 font-bold ">
                         20K
                       </span>
                     </td>
                   </tr>
                   <tr>
-                    <th scope="row" className="paddingrow1 pt-8">
+                    <th scope="row" className="paddingrow1 pt-8 pl-20">
                       1
                     </th>
                     <td>
@@ -486,14 +562,14 @@ const Musigprofooter = () => {
                         John Doe
                       </span>
                     </td>
-                    <td className="font-bold pt-10 pl-12">95.3%</td>
+                    <td className="font-bold pt-8 pl-5">95.3%</td>
                     <td>
                       <img
                         src={art}
                         alt="art"
-                        className="absolute pt-6 pl-12"
+                        className="absolute pt-5 pl-5"
                       />
-                      <span className="float-right pt-8 pr-7 pl-20 font-bold artcolor">
+                      <span className="float-right pt-7 pr-14 font-bold artcolor">
                         20K
                       </span>
                     </td>
@@ -501,15 +577,15 @@ const Musigprofooter = () => {
                       <img
                         src={auto}
                         alt="art"
-                        className="absolute pt-7 pl-10"
+                        className="absolute pt-7 pl-6"
                       />
-                      <span className="float-right pt-7 pl-20 font-bold ">
+                      <span className="float-right pt-7 pr-7 font-bold ">
                         20K
                       </span>
                     </td>
                   </tr>
                   <tr>
-                    <th scope="row" className="paddingrow1 pt-8">
+                    <th scope="row" className="paddingrow1 pt-8 pl-20">
                       1
                     </th>
                     <td>
@@ -528,14 +604,14 @@ const Musigprofooter = () => {
                         John Doe
                       </span>
                     </td>
-                    <td className="font-bold pt-10 pl-12">95.3%</td>
+                    <td className="font-bold pt-8 pl-5">95.3%</td>
                     <td>
                       <img
                         src={art}
                         alt="art"
-                        className="absolute pt-6 pl-12"
+                        className="absolute pt-5 pl-5"
                       />
-                      <span className="float-right pt-8 pr-7 pl-20 font-bold artcolor">
+                      <span className="float-right pt-7 pr-14 font-bold artcolor">
                         20K
                       </span>
                     </td>
@@ -543,15 +619,15 @@ const Musigprofooter = () => {
                       <img
                         src={auto}
                         alt="art"
-                        className="absolute pt-7 pl-10"
+                        className="absolute pt-7 pl-6"
                       />
-                      <span className="float-right pt-7 pl-20 font-bold ">
+                      <span className="float-right pt-7 pr-7 font-bold ">
                         20K
                       </span>
                     </td>
                   </tr>
                   <tr>
-                    <th scope="row" className="paddingrow1 pt-8">
+                    <th scope="row" className="paddingrow1 pt-8 pl-20">
                       1
                     </th>
                     <td>
@@ -570,14 +646,14 @@ const Musigprofooter = () => {
                         John Doe
                       </span>
                     </td>
-                    <td className="font-bold pt-10 pl-12">95.3%</td>
+                    <td className="font-bold pt-8 pl-5">95.3%</td>
                     <td>
                       <img
                         src={art}
                         alt="art"
-                        className="absolute pt-6 pl-12"
+                        className="absolute pt-5 pl-5"
                       />
-                      <span className="float-right pt-8 pr-7 pl-20 font-bold artcolor">
+                      <span className="float-right pt-7 pr-14 font-bold artcolor">
                         20K
                       </span>
                     </td>
@@ -585,15 +661,15 @@ const Musigprofooter = () => {
                       <img
                         src={auto}
                         alt="art"
-                        className="absolute pt-7 pl-10"
+                        className="absolute pt-7 pl-6"
                       />
-                      <span className="float-right pt-7 pl-20 font-bold ">
+                      <span className="float-right pt-7 pr-7 font-bold ">
                         20K
                       </span>
                     </td>
                   </tr>
                   <tr>
-                    <th scope="row" className="paddingrow1 pt-8">
+                    <th scope="row" className="paddingrow1 pt-8 pl-20">
                       1
                     </th>
                     <td>
@@ -612,14 +688,14 @@ const Musigprofooter = () => {
                         John Doe
                       </span>
                     </td>
-                    <td className="font-bold pt-10 pl-12">95.3%</td>
+                    <td className="font-bold pt-8 pl-5">95.3%</td>
                     <td>
                       <img
                         src={art}
                         alt="art"
-                        className="absolute pt-6 pl-12"
+                        className="absolute pt-5 pl-5"
                       />
-                      <span className="float-right pt-8 pr-7 pl-20 font-bold artcolor">
+                      <span className="float-right pt-7 pr-14 font-bold artcolor">
                         20K
                       </span>
                     </td>
@@ -627,15 +703,15 @@ const Musigprofooter = () => {
                       <img
                         src={auto}
                         alt="art"
-                        className="absolute pt-7 pl-10"
+                        className="absolute pt-7 pl-6"
                       />
-                      <span className="float-right pt-7 pl-20 font-bold ">
+                      <span className="float-right pt-7 pr-7 font-bold ">
                         20K
                       </span>
                     </td>
                   </tr>
                   <tr>
-                    <th scope="row" className="paddingrow1 pt-8">
+                    <th scope="row" className="paddingrow1 pt-8 pl-20">
                       1
                     </th>
                     <td>
@@ -654,14 +730,14 @@ const Musigprofooter = () => {
                         John Doe
                       </span>
                     </td>
-                    <td className="font-bold pt-10 pl-12">95.3%</td>
+                    <td className="font-bold pt-8 pl-5">95.3%</td>
                     <td>
                       <img
                         src={art}
                         alt="art"
-                        className="absolute pt-6 pl-12"
+                        className="absolute pt-5 pl-5"
                       />
-                      <span className="float-right pt-8 pr-7 pl-20 font-bold artcolor">
+                      <span className="float-right pt-7 pr-14 font-bold artcolor">
                         20K
                       </span>
                     </td>
@@ -669,15 +745,15 @@ const Musigprofooter = () => {
                       <img
                         src={auto}
                         alt="art"
-                        className="absolute pt-7 pl-10"
+                        className="absolute pt-7 pl-6"
                       />
-                      <span className="float-right pt-7 pl-20 font-bold ">
+                      <span className="float-right pt-7 pr-7 font-bold ">
                         20K
                       </span>
                     </td>
                   </tr>
                   <tr>
-                    <th scope="row" className="paddingrow1 pt-8">
+                    <th scope="row" className="paddingrow1 pt-8 pl-20">
                       1
                     </th>
                     <td>
@@ -696,14 +772,14 @@ const Musigprofooter = () => {
                         John Doe
                       </span>
                     </td>
-                    <td className="font-bold pt-10 pl-12">95.3%</td>
+                    <td className="font-bold pt-8 pl-5">95.3%</td>
                     <td>
                       <img
                         src={art}
                         alt="art"
-                        className="absolute pt-6 pl-12"
+                        className="absolute pt-5 pl-5"
                       />
-                      <span className="float-right pt-8 pr-7 pl-20 font-bold artcolor">
+                      <span className="float-right pt-7 pr-14 font-bold artcolor">
                         20K
                       </span>
                     </td>
@@ -711,15 +787,15 @@ const Musigprofooter = () => {
                       <img
                         src={auto}
                         alt="art"
-                        className="absolute pt-7 pl-10"
+                        className="absolute pt-7 pl-6"
                       />
-                      <span className="float-right pt-7 pl-20 font-bold ">
+                      <span className="float-right pt-7 pr-7 font-bold ">
                         20K
                       </span>
                     </td>
                   </tr>
                   <tr>
-                    <th scope="row" className="paddingrow1 pt-8">
+                    <th scope="row" className="paddingrow1 pt-8 pl-20">
                       1
                     </th>
                     <td>
@@ -738,14 +814,14 @@ const Musigprofooter = () => {
                         John Doe
                       </span>
                     </td>
-                    <td className="font-bold pt-10 pl-12">95.3%</td>
+                    <td className="font-bold pt-8 pl-5">95.3%</td>
                     <td>
                       <img
                         src={art}
                         alt="art"
-                        className="absolute pt-6 pl-12"
+                        className="absolute pt-5 pl-5"
                       />
-                      <span className="float-right pt-8 pr-7 pl-20 font-bold artcolor">
+                      <span className="float-right pt-7 pr-14 font-bold artcolor">
                         20K
                       </span>
                     </td>
@@ -753,15 +829,15 @@ const Musigprofooter = () => {
                       <img
                         src={auto}
                         alt="art"
-                        className="absolute pt-7 pl-10"
+                        className="absolute pt-7 pl-6"
                       />
-                      <span className="float-right pt-7 pl-20 font-bold ">
+                      <span className="float-right pt-7 pr-7 font-bold ">
                         20K
                       </span>
                     </td>
                   </tr>
                   <tr>
-                    <th scope="row" className="paddingrow1 pt-8">
+                    <th scope="row" className="paddingrow1 pt-8 pl-20">
                       1
                     </th>
                     <td>
@@ -780,14 +856,14 @@ const Musigprofooter = () => {
                         John Doe
                       </span>
                     </td>
-                    <td className="font-bold pt-10 pl-12">95.3%</td>
+                    <td className="font-bold pt-10 pl-6">95.3%</td>
                     <td>
                       <img
                         src={art}
                         alt="art"
-                        className="absolute pt-6 pl-12"
+                        className="absolute pt-7 pl-7"
                       />
-                      <span className="float-right pt-8 pr-7 pl-20 font-bold artcolor">
+                      <span className="float-right pt-9 pr-8 pl-20 font-bold artcolor">
                         20K
                       </span>
                     </td>
@@ -797,14 +873,18 @@ const Musigprofooter = () => {
                         alt="art"
                         className="absolute pt-7 pl-10"
                       />
-                      <span className="float-right pt-7 pl-20 font-bold ">
+                      <span className="float-right pt-7 pl-20 pr-2 font-bold ">
                         20K
                       </span>
                     </td>
                   </tr>
                 </tbody>
               </table>
-
+              <img
+                        src={iwanttosing}
+                        alt="art"
+                        className="absolute pt-7 ml-64 w-80"
+                      />
              
             </li>
           </ul>
