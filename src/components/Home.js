@@ -30,7 +30,7 @@ const Home = () => {
         workplace diversity and empowerment.
       </p>
 
-      <div
+      <a href="/home"><div
         class="inline-block text-sm px-4 py-2 
                   lg:ml-96 lg:mt-16
                   md:ml-20 md:mt-20
@@ -39,7 +39,7 @@ const Home = () => {
                   leading-none bg-orange-500 text-white hover:text-orange-500 font-bold text-white-300 rounded transition duration-300 hover:bg-white mt-4"
       >
         Our Best Singer
-      </div>
+      </div></a>
 
       <div
         class="absolute lg:w-192 md:w-96 sm:w-10 xs:w-10 lg:-mt-8 h-32 homefront left-96  lg:ml-80
