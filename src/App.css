@@ -4,17 +4,44 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-
 .topsingerbgcolor {
   background: #242228;
 }
+
 .topsingeravgcolor {
   background: #191919;
+}
+
+.LinearBg {
+  @apply h-32 absolute left-0 w-full;
+  top: 900px;
+  background: linear-gradient(90.05deg, #4900d8 0.04%, #ff0e6a 101%);
+}
+
+.linearbackground {
+  background: linear-gradient(90.05deg, #4900D8 0.04%, #FF0E6A 101%), #FFFFFF;
+}
+
+
+.singbggray{
+  background: #242228;
+}
+
+/* ℹ️ Base selector: .singergirl */
+.singergirl {
+  position: absolute;
+  width: 383px;
+  height: 443px;
+  left: 106px;
+  top: 249px;
+  transform: scaleX(1);
+  background-image: url("/public/siger\ 1.png") ;
+
 }

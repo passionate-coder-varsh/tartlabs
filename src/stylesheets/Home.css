@@ -8,24 +8,6 @@
   background-image: url("/public/Rectangles.png");
 }
 
-/* ℹ️ Base selector: .contenthome */
-
-.contenthome {
-  @apply font-extrabold h-24 lg:text-5xl md:text-xl sm:text-sm absolute left-0 text-center not-italic w-full;
-  top: 266px;
-  line-height: 55px;
-  color: rgba(255, 77, 8, 1);
-}
-
-/* ℹ️ Base selector: .explain */
-.explain {
-  @apply h-24 text-lg leading-8 absolute text-center text-white not-italic;
-  width: 60%;
-  left: 290px;
-  top: 401px;
-  font-weight: normal;
-}
-
 .horizontal {
   position: absolute;
   height: 0px;

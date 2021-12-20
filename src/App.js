@@ -1,8 +1,5 @@
 import "./App.css";
 import "./stylesheets/Home.css";
-import "./stylesheets/Linear.css";
-import "./stylesheets/Countdown.css";
-import "./stylesheets/Sing.css";
 import "./stylesheets/Leaderboard.css";
 import "./stylesheets/MusigProFooter.css";
 import React from "react";

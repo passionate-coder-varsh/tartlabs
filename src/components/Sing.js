@@ -15,11 +15,11 @@ const Sing = () => {
   return (
     <div className=" flex items-center bg-white w-full absolute top-250 ">
       <div className="flex-1 max-w-4-xl">
-        <div className="bg-black w-full pl-40 pr-40 pt-20">
+        <div className="bg-black w-full pl-40 pr-40 pt-20 md:pb20">
           <ul
             class="grid lg:grid-cols-6 lg:grid-rows-2
-                      md:grid-cols-4 md:grid-rows-3
-                      sm:grid-cols-2 sm:grid-rows-3
+                      md:grid-cols-2
+                      sm:grid-cols-2
                       gap-8 grid-flow-row"
           >
             <li class="col-start-1 col-span-2 row-start-1 row-span-6 w-92 h-156 bg-orange-500 rounded-lg shadow-xl">
@@ -29,7 +29,7 @@ const Sing = () => {
               <div className="singergirl"></div>
             </li>
 
-            <li class="singbggray rounded-lg col-span-2">
+            <li class="singbggray rounded-lg lg:col-span-2 md:col-span-1">
               <div class="grid grid-rows-2 grid-cols-3">
                 <div class="row-span-2 text-orange-500 text-ld font-bold mt-8 ml-8">
                   Step - 1
@@ -52,7 +52,7 @@ const Sing = () => {
               </div>
             </li>
 
-            <li class="singbggray rounded-lg  col-span-2">
+            <li class="singbggray rounded-lg  lg:col-span-2 md:col-span-1">
               <div class="grid grid-rows-2 grid-cols-3">
                 <div class="row-span-2 text-orange-500 text-ld font-bold mt-8 ml-8">
                   Step - 2
@@ -80,7 +80,7 @@ const Sing = () => {
               </div>
             </li>
 
-            <li class="singbggray rounded-lg  h-72 col-span-2">
+            <li class="singbggray rounded-lg  h-72 lg:col-span-2 md:col-span-1">
               <div class="grid grid-rows-2 grid-cols-3">
                 <div class="row-span-2 text-orange-500 text-ld font-bold mt-8 ml-8">
                   Step - 3
@@ -109,7 +109,7 @@ const Sing = () => {
               </div>
             </li>
 
-            <li class="singbggray rounded-lg  h-72 col-span-2">
+            <li class="singbggray rounded-lg  h-72 lg:col-span-2 md:col-span-1">
               <div class="grid grid-rows-2 grid-cols-3">
                 <div class="row-span-2 text-orange-500 text-ld font-bold mt-8 ml-8">
                   Step - 4
