@@ -1,6 +1,6 @@
 import React from "react";
 import step1 from "../media/step1.png";
-import step2 from "../media/step2.png";
+import step2analysis from "../media/step2analysis.png";
 import step3 from "../media/step3.png";
 import step4 from "../media/step4.png";
 import girl1 from "../media/girl1.png";
@@ -18,7 +18,7 @@ const Sing = () => {
         <div className="bg-black w-full pl-40 pr-40 pt-20">
           <ul
             class="grid lg:grid-cols-6 lg:grid-rows-2
-                      md:grid-cols-2 md:grid-rows-3
+                      md:grid-cols-4 md:grid-rows-3
                       sm:grid-cols-2 sm:grid-rows-3
                       gap-8 grid-flow-row"
           >
@@ -29,92 +29,111 @@ const Sing = () => {
               <div className="singergirl"></div>
             </li>
 
-            <li class="singbggray rounded-lg shadow-xl h-72 col-span-2">
+            <li class="singbggray rounded-lg col-span-2">
               <div class="grid grid-rows-2 grid-cols-3">
                 <div class="row-span-2 text-orange-500 text-ld font-bold mt-8 ml-8">
                   Step - 1
                 </div>
               </div>
-
               <div class="grid grid-cols-3">
-                <div class="col-span-1"></div>
-                <div class="col-span-1">
-                  <img src={step1} alt="John" className="ml-8 mt-4 w-1/2"></img>
+                <div class="col-span-3">
+                  <img src={step1} alt="John" class="pl-40"></img>
                 </div>
-                <div class="col-span-1"></div>
               </div>
 
-              <div class="col-span-3 ml-8 mr-8 mt-2 rounded-lg content-center">
-                <h1 class="font-lg h-20 text-md relative ml-8 mr-8 text-white not-italic text-center">
-                  Users sing along to their favourite song
-                </h1>
+              <div class="grid grid-cols-3">
+                <div class="col-span-3 mt-1 ml-8 mr-8 rounded-lg content-center">
+                  <div class="grid grid-rows-2">
+                    <div class="row-span-2 text-center text-white ml-8 mr-8 ">
+                      Users sing along to their favourite song
+                    </div>
+                  </div>
+                </div>
               </div>
             </li>
 
-            <li class="singbggray rounded-lg shadow-xl h-72 col-span-2">
+            <li class="singbggray rounded-lg  col-span-2">
               <div class="grid grid-rows-2 grid-cols-3">
                 <div class="row-span-2 text-orange-500 text-ld font-bold mt-8 ml-8">
                   Step - 2
                 </div>
               </div>
-
               <div class="grid grid-cols-3">
-                <div class="col-span-1"></div>
-                <div class="col-span-1">
-                  <img src={step2} alt="John" className="ml-8 mt-4 w-1/2"></img>
+                <div class="col-span-3">
+                  <img src={step2analysis} alt="John" class="pl-34"></img>
                 </div>
-                <div class="col-span-1"></div>
               </div>
 
-              <div class="col-span-3 ml-8 mr-8 mt-2 rounded-lg content-center">
-              <h1 class="font-lg h-20 text-md  relative text-white not-italic text-center -top-10 p-8">
-                Analysis - Our Patent pending algorithm rates the performance
-                for Pitch, Rhythm, Timbre & Vibrato
-              </h1>
+              <div class="grid grid-cols-3">
+                <div class="col-span-3 text-center mt-5 text-lg text-white font-bold ">
+                  Analysis{" "}
+                </div>
+
+                <div class="col-span-3 mt-2 ml-8 mr-8 rounded-lg  content-center">
+                  <div class="grid grid-rows-2">
+                    <div class="row-span-2 text-center text-white  ">
+                      Analysis - Our Patent pending algorithm rates the
+                      performance for Pitch, Rhythm, Timbre & Vibrato
+                    </div>
+                  </div>
+                </div>
               </div>
             </li>
 
-            <li class="singbggray rounded-lg shadow-xl h-72 col-span-2">
+            <li class="singbggray rounded-lg  h-72 col-span-2">
               <div class="grid grid-rows-2 grid-cols-3">
                 <div class="row-span-2 text-orange-500 text-ld font-bold mt-8 ml-8">
-                  Step - 2
+                  Step - 3
+                </div>
+              </div>
+              <div class="grid grid-cols-3">
+                <div class="col-span-3">
+                  <img src={step3} alt="John" class="pl-40"></img>
                 </div>
               </div>
 
               <div class="grid grid-cols-3">
-                <div class="col-span-1"></div>
-                <div class="col-span-1">
-                  <img src={step2} alt="John" className="ml-8 mt-4 w-1/2"></img>
+                <div class="col-span-3 text-center mt-2 text-white font-bold ">
+                  AI Score{" "}
                 </div>
-                <div class="col-span-1"></div>
-              </div>
 
-              <div class="col-span-3 ml-8 mr-8 mt-2 rounded-lg content-center">
-                <h1 class="font-lg h-20 text-md relative ml-8 mr-8 text-white not-italic text-center">
-                  Users sing along to their favourite song
-                </h1>
+                <div class="col-span-3 mt-2 ml-8 mr-8 rounded-lg content-center">
+                  <div class="grid grid-rows-2">
+                    <div class="row-span-2 text-center text-white  ">
+                      The AI judge provides the singing quality score out of
+                      100, along with graphical feedback, and position on the
+                      leaderboard.
+                    </div>
+                  </div>
+                </div>
               </div>
             </li>
 
-            <li class="singbggray rounded-lg shadow-xl h-72 col-span-2">
+            <li class="singbggray rounded-lg  h-72 col-span-2">
               <div class="grid grid-rows-2 grid-cols-3">
                 <div class="row-span-2 text-orange-500 text-ld font-bold mt-8 ml-8">
-                  Step - 2
+                  Step - 4
+                </div>
+              </div>
+              <div class="grid grid-cols-3">
+                <div class="col-span-3">
+                  <img src={step4} alt="John" class="pl-36"></img>
                 </div>
               </div>
 
               <div class="grid grid-cols-3">
-                <div class="col-span-1"></div>
-                <div class="col-span-1">
-                  <img src={step2} alt="John" className="ml-8 mt-4 w-1/2"></img>
+                <div class="col-span-3 text-center mt-2 text-white font-bold ">
+                  Popular Score{" "}
                 </div>
-                <div class="col-span-1"></div>
-              </div>
 
-              <div class="col-span-3 ml-8 mr-8 mt-2 rounded-lg content-center">
-                <h1 class="font-lg h-20 text-md relative ml-8 mr-8 text-white not-italic text-center">
-                  Users sing along to their favourite song
-                </h1>
+                <div class="col-span-3 mt-2 ml-8 mr-8 rounded-lg  content-center">
+                  <div class="grid grid-rows-2">
+                    <div class="row-span-2 text-center text-white  ">
+                      The user can share their performance to gather likes and
+                      rise up the leaderboard through popularity
+                    </div>
+                  </div>
+                </div>
               </div>
             </li>
 
@@ -124,13 +143,13 @@ const Sing = () => {
                 <div class="grid grid-cols-3 w-80 h-56">
                   <div class="col-span-1"></div>
                   <div class="col-span-1 left-7">
-                    <img src={step2} alt="John" class="w-32"></img>
+                    <img src={step2analysis} alt="John" class="w-32"></img>
                     <br />
                   </div>
                   <div class="col-span-1"></div>
                 </div>
               </h1>
-              <div className="step2"></div>
+              <div className="step2analysis"></div>
               <h1 class="font-lg h-20 text-md  relative text-white not-italic text-center -top-10 p-20">
                 Analysis - Our Patent pending algorithm rates the performance
                 for Pitch, Rhythm, Timbre & Vibrato
@@ -164,7 +183,7 @@ const Sing = () => {
                 <div class="grid grid-cols-3 w-80 h-56">
                   <div class="col-span-1"></div>
                   <div class="col-span-1 w-40 ">
-                    <img src={step2} alt="John" class="pl-8 h-18"></img>
+                    <img src={step2analysis} alt="John" class="pl-8 h-18"></img>
                     <span class="font-bold text-white pl-4">Popular Score</span>
                   </div>
                   <div class="col-span-1"></div>

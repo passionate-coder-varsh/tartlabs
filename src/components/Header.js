@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../media/logo.png";
-// grab everything we need
+
 
 const Header = () => {
   return (
@@ -29,28 +29,28 @@ const Header = () => {
         <div class="text-sm lg:flex-grow">
           <a
             href="#responsive-header"
-            class="block mt-4 lg:inline-block lg:mt-0 float-right text-white hover:text-orange-500 mr-4"
+            class="block mt-4 lg:inline-block lg:mt-0 float-right text-white hover:text-orange-500 mr-20"
           >
             Contact Us
           </a>
 
           <a
             href="#responsive-header"
-            class="block mt-4 lg:inline-block lg:mt-0 float-right text-white hover:text-orange-500 mr-4"
+            class="block mt-4 lg:inline-block lg:mt-0 float-right text-white hover:text-orange-500 mr-20"
           >
             Our Singers
           </a>
 
           <a
             href="#responsive-header"
-            class="block mt-4 lg:inline-block lg:mt-0 float-right text-white hover:text-orange-500 mr-4"
+            class="block mt-4 lg:inline-block lg:mt-0 float-right text-white hover:text-orange-500 mr-20"
           >
             About Us
           </a>
 
           <a
             href="#responsive-header"
-            class="block mt-4 lg:inline-block lg:mt-0 float-right text-white hover:text-orange-500 mr-4"
+            class="block mt-4 lg:inline-block lg:mt-0 float-right text-white hover:text-orange-500 mr-20"
           >
             Home
           </a>
@@ -58,7 +58,7 @@ const Header = () => {
         <div>
           <a
             href="/home"
-            class="inline-block text-sm px-8 py-2 leading-none bg-orange-500 text-white hover:text-orange-500 font-bold text-white-300 rounded transition duration-300 hover:bg-white mt-4 lg:mt-0"
+            class="inline-block text-sm px-8 py-2 mr-10 leading-none bg-orange-500 text-white hover:text-orange-500 font-bold text-white-300 rounded transition duration-300 hover:bg-white mt-4 lg:mt-0"
           >
             Sign Up
           </a>

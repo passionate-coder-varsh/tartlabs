@@ -294,432 +294,524 @@ const Musigprofooter = () => {
 
 
 
-        <div
-          className="min-h-screen w-full items-center bg-black p-10 ">
-          
-          
+
+
+      {/* ================================== Leaderboard starts here ====================== */}
+
+{/* 
+
+
+
+
+
+        <div className="min-h-screen w-full items-center bg-black p-10 ">
           <ul
-          class="grid lg:grid-cols-5 lg:grid-rows-6 
+            class="grid lg:grid-cols-5 lg:grid-rows-6 
         md:grid-cols-4 md:grid-rows-6
         gap-8 grid-flow-row"
-        >
-          <li class="col-start-1 col-span-2 row-start-1 row-span-6 w-92 h-192 bg-white rounded-lg shadow-xl">
+          >
+            <li class="col-start-1 col-span-2 row-start-1 row-span-6 w-92 h-192 bg-white rounded-lg shadow-xl"></li>
 
-
-          </li>
-
-
-
-
-          <li class="bg-white rounded-lg shadow-xl h-192 w-192 lg:col-start-3 lg:col-span-3 lg:row-start-1 lg:row-span-6
+            <li
+              class="bg-white rounded-lg shadow-xl h-192 w-192 lg:col-start-3 lg:col-span-3 lg:row-start-1 lg:row-span-6
           md:row-start-7 md:col-start-1 md:row-span-6
           sm:row-start-7 sm:col-start-1 sm:row-span-6
           xs:row-start-7 xs:col-start-1 xs:row-span-6
-          ">
+          "
+            >
+              <table class="overflow-scroll">
+                <thead class="tableheadbg">
+                  <tr>
+                    <th
+                      scope="col-2"
+                      className="text-center pl-16 pr-14 pt-6 text-white"
+                    >
+                      Rank
+                    </th>
+                    <th
+                      scope="col-4"
+                      className="text-center pr-20 pt-6 text-white"
+                    >
+                      Singer Name
+                    </th>
+                    <th
+                      scope="col-2"
+                      className="text-center pr-14 pt-6 text-white"
+                    >
+                      AI Score
+                    </th>
+                    <th
+                      scope="col-2"
+                      className="text-center pr-12 pt-6 text-white"
+                    >
+                      Likes
+                    </th>
+                    <th scope="col-2" className=" text-center pt-6 text-white">
+                      Song
+                    </th>
+                  </tr>
+                </thead>
+                <tbody className="tbody ">
+                  <tr>
+                    <th scope="row" className="paddingrow1 pt-8">
+                      1
+                    </th>
+                    <td>
+                      {" "}
+                      <img
+                        src={johndoe}
+                        alt="Johndoe"
+                        className="absolute pt-6"
+                      />
+                      <img
+                        src={badge}
+                        alt="Johndoe"
+                        className="absolute pl-9 pt-4"
+                      />
+                      <span className="float-right pr-14 pt-8 font-bold">
+                        John Doe
+                      </span>
+                    </td>
+                    <td className="font-bold pt-10 pl-12">95.3%</td>
+                    <td>
+                      <img
+                        src={art}
+                        alt="art"
+                        className="absolute pt-6 pl-12"
+                      />
+                      <span className="float-right pt-8 pr-7 pl-20 font-bold artcolor">
+                        20K
+                      </span>
+                    </td>
+                    <td>
+                      <img
+                        src={auto}
+                        alt="art"
+                        className="absolute pt-7 pl-10"
+                      />
+                      <span className="float-right pt-7 pl-20 font-bold ">
+                        20K
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" className="paddingrow1 pt-8">
+                      1
+                    </th>
+                    <td>
+                      {" "}
+                      <img
+                        src={johndoe}
+                        alt="Johndoe"
+                        className="absolute pt-6"
+                      />
+                      <img
+                        src={badge}
+                        alt="Johndoe"
+                        className="absolute pl-9 pt-4"
+                      />
+                      <span className="float-right pr-14 pt-8 font-bold">
+                        John Doe
+                      </span>
+                    </td>
+                    <td className="font-bold pt-10 pl-12">95.3%</td>
+                    <td>
+                      <img
+                        src={art}
+                        alt="art"
+                        className="absolute pt-6 pl-12"
+                      />
+                      <span className="float-right pt-8 pr-7 pl-20 font-bold artcolor">
+                        20K
+                      </span>
+                    </td>
+                    <td>
+                      <img
+                        src={auto}
+                        alt="art"
+                        className="absolute pt-7 pl-10"
+                      />
+                      <span className="float-right pt-7 pl-20 font-bold ">
+                        20K
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" className="paddingrow1 pt-8">
+                      1
+                    </th>
+                    <td>
+                      {" "}
+                      <img
+                        src={johndoe}
+                        alt="Johndoe"
+                        className="absolute pt-6"
+                      />
+                      <img
+                        src={badge}
+                        alt="Johndoe"
+                        className="absolute pl-9 pt-4"
+                      />
+                      <span className="float-right pr-14 pt-8 font-bold">
+                        John Doe
+                      </span>
+                    </td>
+                    <td className="font-bold pt-10 pl-12">95.3%</td>
+                    <td>
+                      <img
+                        src={art}
+                        alt="art"
+                        className="absolute pt-6 pl-12"
+                      />
+                      <span className="float-right pt-8 pr-7 pl-20 font-bold artcolor">
+                        20K
+                      </span>
+                    </td>
+                    <td>
+                      <img
+                        src={auto}
+                        alt="art"
+                        className="absolute pt-7 pl-10"
+                      />
+                      <span className="float-right pt-7 pl-20 font-bold ">
+                        20K
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" className="paddingrow1 pt-8">
+                      1
+                    </th>
+                    <td>
+                      {" "}
+                      <img
+                        src={johndoe}
+                        alt="Johndoe"
+                        className="absolute pt-6"
+                      />
+                      <img
+                        src={badge}
+                        alt="Johndoe"
+                        className="absolute pl-9 pt-4"
+                      />
+                      <span className="float-right pr-14 pt-8 font-bold">
+                        John Doe
+                      </span>
+                    </td>
+                    <td className="font-bold pt-10 pl-12">95.3%</td>
+                    <td>
+                      <img
+                        src={art}
+                        alt="art"
+                        className="absolute pt-6 pl-12"
+                      />
+                      <span className="float-right pt-8 pr-7 pl-20 font-bold artcolor">
+                        20K
+                      </span>
+                    </td>
+                    <td>
+                      <img
+                        src={auto}
+                        alt="art"
+                        className="absolute pt-7 pl-10"
+                      />
+                      <span className="float-right pt-7 pl-20 font-bold ">
+                        20K
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" className="paddingrow1 pt-8">
+                      1
+                    </th>
+                    <td>
+                      {" "}
+                      <img
+                        src={johndoe}
+                        alt="Johndoe"
+                        className="absolute pt-6"
+                      />
+                      <img
+                        src={badge}
+                        alt="Johndoe"
+                        className="absolute pl-9 pt-4"
+                      />
+                      <span className="float-right pr-14 pt-8 font-bold">
+                        John Doe
+                      </span>
+                    </td>
+                    <td className="font-bold pt-10 pl-12">95.3%</td>
+                    <td>
+                      <img
+                        src={art}
+                        alt="art"
+                        className="absolute pt-6 pl-12"
+                      />
+                      <span className="float-right pt-8 pr-7 pl-20 font-bold artcolor">
+                        20K
+                      </span>
+                    </td>
+                    <td>
+                      <img
+                        src={auto}
+                        alt="art"
+                        className="absolute pt-7 pl-10"
+                      />
+                      <span className="float-right pt-7 pl-20 font-bold ">
+                        20K
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" className="paddingrow1 pt-8">
+                      1
+                    </th>
+                    <td>
+                      {" "}
+                      <img
+                        src={johndoe}
+                        alt="Johndoe"
+                        className="absolute pt-6"
+                      />
+                      <img
+                        src={badge}
+                        alt="Johndoe"
+                        className="absolute pl-9 pt-4"
+                      />
+                      <span className="float-right pr-14 pt-8 font-bold">
+                        John Doe
+                      </span>
+                    </td>
+                    <td className="font-bold pt-10 pl-12">95.3%</td>
+                    <td>
+                      <img
+                        src={art}
+                        alt="art"
+                        className="absolute pt-6 pl-12"
+                      />
+                      <span className="float-right pt-8 pr-7 pl-20 font-bold artcolor">
+                        20K
+                      </span>
+                    </td>
+                    <td>
+                      <img
+                        src={auto}
+                        alt="art"
+                        className="absolute pt-7 pl-10"
+                      />
+                      <span className="float-right pt-7 pl-20 font-bold ">
+                        20K
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" className="paddingrow1 pt-8">
+                      1
+                    </th>
+                    <td>
+                      {" "}
+                      <img
+                        src={johndoe}
+                        alt="Johndoe"
+                        className="absolute pt-6"
+                      />
+                      <img
+                        src={badge}
+                        alt="Johndoe"
+                        className="absolute pl-9 pt-4"
+                      />
+                      <span className="float-right pr-14 pt-8 font-bold">
+                        John Doe
+                      </span>
+                    </td>
+                    <td className="font-bold pt-10 pl-12">95.3%</td>
+                    <td>
+                      <img
+                        src={art}
+                        alt="art"
+                        className="absolute pt-6 pl-12"
+                      />
+                      <span className="float-right pt-8 pr-7 pl-20 font-bold artcolor">
+                        20K
+                      </span>
+                    </td>
+                    <td>
+                      <img
+                        src={auto}
+                        alt="art"
+                        className="absolute pt-7 pl-10"
+                      />
+                      <span className="float-right pt-7 pl-20 font-bold ">
+                        20K
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" className="paddingrow1 pt-8">
+                      1
+                    </th>
+                    <td>
+                      {" "}
+                      <img
+                        src={johndoe}
+                        alt="Johndoe"
+                        className="absolute pt-6"
+                      />
+                      <img
+                        src={badge}
+                        alt="Johndoe"
+                        className="absolute pl-9 pt-4"
+                      />
+                      <span className="float-right pr-14 pt-8 font-bold">
+                        John Doe
+                      </span>
+                    </td>
+                    <td className="font-bold pt-10 pl-12">95.3%</td>
+                    <td>
+                      <img
+                        src={art}
+                        alt="art"
+                        className="absolute pt-6 pl-12"
+                      />
+                      <span className="float-right pt-8 pr-7 pl-20 font-bold artcolor">
+                        20K
+                      </span>
+                    </td>
+                    <td>
+                      <img
+                        src={auto}
+                        alt="art"
+                        className="absolute pt-7 pl-10"
+                      />
+                      <span className="float-right pt-7 pl-20 font-bold ">
+                        20K
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" className="paddingrow1 pt-8">
+                      1
+                    </th>
+                    <td>
+                      {" "}
+                      <img
+                        src={johndoe}
+                        alt="Johndoe"
+                        className="absolute pt-6"
+                      />
+                      <img
+                        src={badge}
+                        alt="Johndoe"
+                        className="absolute pl-9 pt-4"
+                      />
+                      <span className="float-right pr-14 pt-8 font-bold">
+                        John Doe
+                      </span>
+                    </td>
+                    <td className="font-bold pt-10 pl-12">95.3%</td>
+                    <td>
+                      <img
+                        src={art}
+                        alt="art"
+                        className="absolute pt-6 pl-12"
+                      />
+                      <span className="float-right pt-8 pr-7 pl-20 font-bold artcolor">
+                        20K
+                      </span>
+                    </td>
+                    <td>
+                      <img
+                        src={auto}
+                        alt="art"
+                        className="absolute pt-7 pl-10"
+                      />
+                      <span className="float-right pt-7 pl-20 font-bold ">
+                        20K
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" className="paddingrow1 pt-8">
+                      1
+                    </th>
+                    <td>
+                      {" "}
+                      <img
+                        src={johndoe}
+                        alt="Johndoe"
+                        className="absolute pt-6"
+                      />
+                      <img
+                        src={badge}
+                        alt="Johndoe"
+                        className="absolute pl-9 pt-4"
+                      />
+                      <span className="float-right pr-14 pt-8 font-bold">
+                        John Doe
+                      </span>
+                    </td>
+                    <td className="font-bold pt-10 pl-12">95.3%</td>
+                    <td>
+                      <img
+                        src={art}
+                        alt="art"
+                        className="absolute pt-6 pl-12"
+                      />
+                      <span className="float-right pt-8 pr-7 pl-20 font-bold artcolor">
+                        20K
+                      </span>
+                    </td>
+                    <td>
+                      <img
+                        src={auto}
+                        alt="art"
+                        className="absolute pt-7 pl-10"
+                      />
+                      <span className="float-right pt-7 pl-20 font-bold ">
+                        20K
+                      </span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <div className="iwanttosing"></div>
+              <img
+                src={iwanttosing}
+                alt="iwanttosing"
+                className="absolute pt-12 h-20 left-64 "
+              />
+            </li>
+          </ul>
+        </div> */}
 
 
-            <table class="overflow-scroll">
-              <thead class="tableheadbg">
-                <tr>
-                  <th
-                    scope="col-2"
-                    className="text-center pl-16 pr-14 pt-6 text-white"
-                  >
-                    Rank
-                  </th>
-                  <th
-                    scope="col-4"
-                    className="text-center pr-20 pt-6 text-white"
-                  >
-                    Singer Name
-                  </th>
-                  <th
-                    scope="col-2"
-                    className="text-center pr-14 pt-6 text-white"
-                  >
-                    AI Score
-                  </th>
-                  <th
-                    scope="col-2"
-                    className="text-center pr-12 pt-6 text-white"
-                  >
-                    Likes
-                  </th>
-                  <th scope="col-2" className=" text-center pt-6 text-white">
-                    Song
-                  </th>
-                </tr>
-              </thead>
-              <tbody className="tbody ">
-                <tr>
-                  <th scope="row" className="paddingrow1 pt-8">
-                    1
-                  </th>
-                  <td>
-                    {" "}
-                    <img
-                      src={johndoe}
-                      alt="Johndoe"
-                      className="absolute pt-6"
-                    />
-                    <img
-                      src={badge}
-                      alt="Johndoe"
-                      className="absolute pl-9 pt-4"
-                    />
-                    <span className="float-right pr-14 pt-8 font-bold">
-                      John Doe
-                    </span>
-                  </td>
-                  <td className="font-bold pt-10 pl-12">95.3%</td>
-                  <td>
-                    <img src={art} alt="art" className="absolute pt-6 pl-12" />
-                    <span className="float-right pt-8 pr-7 pl-20 font-bold artcolor">
-                      20K
-                    </span>
-                  </td>
-                  <td>
-                    <img src={auto} alt="art" className="absolute pt-7 pl-10" />
-                    <span className="float-right pt-7 pl-20 font-bold ">
-                      20K
-                    </span>
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row" className="paddingrow1 pt-8">
-                    1
-                  </th>
-                  <td>
-                    {" "}
-                    <img
-                      src={johndoe}
-                      alt="Johndoe"
-                      className="absolute pt-6"
-                    />
-                    <img
-                      src={badge}
-                      alt="Johndoe"
-                      className="absolute pl-9 pt-4"
-                    />
-                    <span className="float-right pr-14 pt-8 font-bold">
-                      John Doe
-                    </span>
-                  </td>
-                  <td className="font-bold pt-10 pl-12">95.3%</td>
-                  <td>
-                    <img src={art} alt="art" className="absolute pt-6 pl-12" />
-                    <span className="float-right pt-8 pr-7 pl-20 font-bold artcolor">
-                      20K
-                    </span>
-                  </td>
-                  <td>
-                    <img src={auto} alt="art" className="absolute pt-7 pl-10" />
-                    <span className="float-right pt-7 pl-20 font-bold ">
-                      20K
-                    </span>
-                  </td>
-                </tr><tr>
-                  <th scope="row" className="paddingrow1 pt-8">
-                    1
-                  </th>
-                  <td>
-                    {" "}
-                    <img
-                      src={johndoe}
-                      alt="Johndoe"
-                      className="absolute pt-6"
-                    />
-                    <img
-                      src={badge}
-                      alt="Johndoe"
-                      className="absolute pl-9 pt-4"
-                    />
-                    <span className="float-right pr-14 pt-8 font-bold">
-                      John Doe
-                    </span>
-                  </td>
-                  <td className="font-bold pt-10 pl-12">95.3%</td>
-                  <td>
-                    <img src={art} alt="art" className="absolute pt-6 pl-12" />
-                    <span className="float-right pt-8 pr-7 pl-20 font-bold artcolor">
-                      20K
-                    </span>
-                  </td>
-                  <td>
-                    <img src={auto} alt="art" className="absolute pt-7 pl-10" />
-                    <span className="float-right pt-7 pl-20 font-bold ">
-                      20K
-                    </span>
-                  </td>
-                </tr><tr>
-                  <th scope="row" className="paddingrow1 pt-8">
-                    1
-                  </th>
-                  <td>
-                    {" "}
-                    <img
-                      src={johndoe}
-                      alt="Johndoe"
-                      className="absolute pt-6"
-                    />
-                    <img
-                      src={badge}
-                      alt="Johndoe"
-                      className="absolute pl-9 pt-4"
-                    />
-                    <span className="float-right pr-14 pt-8 font-bold">
-                      John Doe
-                    </span>
-                  </td>
-                  <td className="font-bold pt-10 pl-12">95.3%</td>
-                  <td>
-                    <img src={art} alt="art" className="absolute pt-6 pl-12" />
-                    <span className="float-right pt-8 pr-7 pl-20 font-bold artcolor">
-                      20K
-                    </span>
-                  </td>
-                  <td>
-                    <img src={auto} alt="art" className="absolute pt-7 pl-10" />
-                    <span className="float-right pt-7 pl-20 font-bold ">
-                      20K
-                    </span>
-                  </td>
-                </tr><tr>
-                  <th scope="row" className="paddingrow1 pt-8">
-                    1
-                  </th>
-                  <td>
-                    {" "}
-                    <img
-                      src={johndoe}
-                      alt="Johndoe"
-                      className="absolute pt-6"
-                    />
-                    <img
-                      src={badge}
-                      alt="Johndoe"
-                      className="absolute pl-9 pt-4"
-                    />
-                    <span className="float-right pr-14 pt-8 font-bold">
-                      John Doe
-                    </span>
-                  </td>
-                  <td className="font-bold pt-10 pl-12">95.3%</td>
-                  <td>
-                    <img src={art} alt="art" className="absolute pt-6 pl-12" />
-                    <span className="float-right pt-8 pr-7 pl-20 font-bold artcolor">
-                      20K
-                    </span>
-                  </td>
-                  <td>
-                    <img src={auto} alt="art" className="absolute pt-7 pl-10" />
-                    <span className="float-right pt-7 pl-20 font-bold ">
-                      20K
-                    </span>
-                  </td>
-                </tr><tr>
-                  <th scope="row" className="paddingrow1 pt-8">
-                    1
-                  </th>
-                  <td>
-                    {" "}
-                    <img
-                      src={johndoe}
-                      alt="Johndoe"
-                      className="absolute pt-6"
-                    />
-                    <img
-                      src={badge}
-                      alt="Johndoe"
-                      className="absolute pl-9 pt-4"
-                    />
-                    <span className="float-right pr-14 pt-8 font-bold">
-                      John Doe
-                    </span>
-                  </td>
-                  <td className="font-bold pt-10 pl-12">95.3%</td>
-                  <td>
-                    <img src={art} alt="art" className="absolute pt-6 pl-12" />
-                    <span className="float-right pt-8 pr-7 pl-20 font-bold artcolor">
-                      20K
-                    </span>
-                  </td>
-                  <td>
-                    <img src={auto} alt="art" className="absolute pt-7 pl-10" />
-                    <span className="float-right pt-7 pl-20 font-bold ">
-                      20K
-                    </span>
-                  </td>
-                </tr><tr>
-                  <th scope="row" className="paddingrow1 pt-8">
-                    1
-                  </th>
-                  <td>
-                    {" "}
-                    <img
-                      src={johndoe}
-                      alt="Johndoe"
-                      className="absolute pt-6"
-                    />
-                    <img
-                      src={badge}
-                      alt="Johndoe"
-                      className="absolute pl-9 pt-4"
-                    />
-                    <span className="float-right pr-14 pt-8 font-bold">
-                      John Doe
-                    </span>
-                  </td>
-                  <td className="font-bold pt-10 pl-12">95.3%</td>
-                  <td>
-                    <img src={art} alt="art" className="absolute pt-6 pl-12" />
-                    <span className="float-right pt-8 pr-7 pl-20 font-bold artcolor">
-                      20K
-                    </span>
-                  </td>
-                  <td>
-                    <img src={auto} alt="art" className="absolute pt-7 pl-10" />
-                    <span className="float-right pt-7 pl-20 font-bold ">
-                      20K
-                    </span>
-                  </td>
-                </tr><tr>
-                  <th scope="row" className="paddingrow1 pt-8">
-                    1
-                  </th>
-                  <td>
-                    {" "}
-                    <img
-                      src={johndoe}
-                      alt="Johndoe"
-                      className="absolute pt-6"
-                    />
-                    <img
-                      src={badge}
-                      alt="Johndoe"
-                      className="absolute pl-9 pt-4"
-                    />
-                    <span className="float-right pr-14 pt-8 font-bold">
-                      John Doe
-                    </span>
-                  </td>
-                  <td className="font-bold pt-10 pl-12">95.3%</td>
-                  <td>
-                    <img src={art} alt="art" className="absolute pt-6 pl-12" />
-                    <span className="float-right pt-8 pr-7 pl-20 font-bold artcolor">
-                      20K
-                    </span>
-                  </td>
-                  <td>
-                    <img src={auto} alt="art" className="absolute pt-7 pl-10" />
-                    <span className="float-right pt-7 pl-20 font-bold ">
-                      20K
-                    </span>
-                  </td>
-                </tr><tr>
-                  <th scope="row" className="paddingrow1 pt-8">
-                    1
-                  </th>
-                  <td>
-                    {" "}
-                    <img
-                      src={johndoe}
-                      alt="Johndoe"
-                      className="absolute pt-6"
-                    />
-                    <img
-                      src={badge}
-                      alt="Johndoe"
-                      className="absolute pl-9 pt-4"
-                    />
-                    <span className="float-right pr-14 pt-8 font-bold">
-                      John Doe
-                    </span>
-                  </td>
-                  <td className="font-bold pt-10 pl-12">95.3%</td>
-                  <td>
-                    <img src={art} alt="art" className="absolute pt-6 pl-12" />
-                    <span className="float-right pt-8 pr-7 pl-20 font-bold artcolor">
-                      20K
-                    </span>
-                  </td>
-                  <td>
-                    <img src={auto} alt="art" className="absolute pt-7 pl-10" />
-                    <span className="float-right pt-7 pl-20 font-bold ">
-                      20K
-                    </span>
-                  </td>
-                </tr><tr>
-                  <th scope="row" className="paddingrow1 pt-8">
-                    1
-                  </th>
-                  <td>
-                    {" "}
-                    <img
-                      src={johndoe}
-                      alt="Johndoe"
-                      className="absolute pt-6"
-                    />
-                    <img
-                      src={badge}
-                      alt="Johndoe"
-                      className="absolute pl-9 pt-4"
-                    />
-                    <span className="float-right pr-14 pt-8 font-bold">
-                      John Doe
-                    </span>
-                  </td>
-                  <td className="font-bold pt-10 pl-12">95.3%</td>
-                  <td>
-                    <img src={art} alt="art" className="absolute pt-6 pl-12" />
-                    <span className="float-right pt-8 pr-7 pl-20 font-bold artcolor">
-                      20K
-                    </span>
-                  </td>
-                  <td>
-                    <img src={auto} alt="art" className="absolute pt-7 pl-10" />
-                    <span className="float-right pt-7 pl-20 font-bold ">
-                      20K
-                    </span>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-
-            <div className="iwanttosing"></div>
-            <img
-              src={iwanttosing}
-              alt="iwanttosing"
-              className="absolute pt-12 h-20 left-64 "
-            />
-
-
-          </li>
-
-         
-         
-        </ul>
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          </div>
 
 
 
-     {/* ==========================================   MusigProFooter Starts here ========================= */}
 
+
+
+
+        
+
+        {/* ==========================================   MusigProFooter Starts here ========================= */}
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         <ul
           class="grid lg:grid-cols-2 xl:grid-cols-4
         md:grid-cols-2
