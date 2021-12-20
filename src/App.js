@@ -20,7 +20,7 @@ import { BrowserRouter as Router,} from 'react-router-dom';
   return (
       <Router>
           
-           {/* <Home/>
+           <Home/>
 
            <Countdown />
           
@@ -30,7 +30,7 @@ import { BrowserRouter as Router,} from 'react-router-dom';
 
          <TopSingers />
 
-       <Leaderboard /> */}
+       <Leaderboard />
 
           <Musigprofooter/>
           

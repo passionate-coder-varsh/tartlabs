@@ -1,11 +1,18 @@
 import React from "react";
 import musig from "../media/musig.png";
-import arrow from "../media/arrow.png";
+import Header from "./Header";
+import john from "../media/john.png";
+import playbutton from "../media/playbutton.png";
+import path from "../media/path.png"
 
 const Musigprofooter = () => {
   return (
-    <div className=" flex items-center bg-white w-full h-auto absolute lg:top-280 md:top-300">
-      <div className="flex-1 max-w-4-xl mt-16">
+    
+    
+    <footer className=" flex items-center bg-white w-full h-auto absolute lg:top-280 md:top-300">
+       
+      
+      <div className="flex-1 max-w-4-xl">
         <ul
           class="grid lg:grid-cols-2 xl:grid-cols-4
         md:grid-cols-2
@@ -23,7 +30,7 @@ const Musigprofooter = () => {
             </div>
           </li>
 
-          <li class=" rounded-lg  col-span-1 h-96">
+          <li class=" rounded-lg  col-span-1 h-80">
             <div class="m-8">
               <h1 class="text-2xl font-semibold text-gray-900 sm:mt-8 lg:text-2xl md:text-lg sm:text-lg xs:text-lg">
                 Information
@@ -54,7 +61,7 @@ const Musigprofooter = () => {
             </div>
           </li>
 
-          <li class=" rounded-lg col-span-1 h-96">
+          <li class=" rounded-lg col-span-1 h-80">
             <div class="m-8">
               <h1 class="text-2xl font-semibold text-gray-900 sm:mt-8 lg:text-2xl md:text-lg sm:text-lg xs:text-lg">
                 Follow Us
@@ -85,7 +92,7 @@ const Musigprofooter = () => {
             </div>
           </li>
 
-          <li class=" rounded-lg  h-96 col-span-1">
+          <li class=" rounded-lg  h-80 col-span-1">
             <div class="m-8">
               <h1 class="text-xl font-semibold text-gray-900 lg:text-2xl md:text-lg sm:text-lg xs:text-lg">
                 Download MusigPro
@@ -106,44 +113,20 @@ const Musigprofooter = () => {
               </div>
             </div>
           </li>
-          </ul>
-          <ul
+        </ul>
+        <ul
           class="grid lg:grid-cols-3 xl:grid-cols-3
         md:grid-cols-2
         sm:grid-cols-1
         xs:grid-cols-1
         gap-x-2 "
         >
-          <li class="col-span-4 flex object-center justify-center w-92 text-center p-4 text-white h-16 bg-orange-600">
-          © 2021 MuSigPro, Inc. All Rights Reserved.
+          <li class="col-span-4 flex object-center justify-center w-92 text-center p-5 text-white h-16 bg-orange-600">
+            © 2021 MuSigPro, Inc. All Rights Reserved.
           </li>
-
         </ul>
-
-
       </div>
-    </div>
-
-    //   <div class="MusicFooter">
-    //     <div className="min-h-screen flex items-center bg-black singpush ">
-    //       <div className="flex-1 max-w-4-xl mx-20 p-10 mt-16">
-
-    //     <div class="bg-amber-200 grid h-80 lg:grid-cols-4 md:grid-cols-1 2xl:grid-cols-4 sm:grid-cols-2 xs:grid-cols-1">
-
-    //       <div class="relative lg:block">
-
-    //       </div>
-
-    //       <div class="relative lg:block">
-
-    //       </div>
-
-    //       <div class="relative lg:block">
-
-    //     </div>
-    //     </div>
-    // </div>
-    //   </div>
+    </footer>
   );
 };
 export default Musigprofooter;
