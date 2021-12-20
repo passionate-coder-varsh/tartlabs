@@ -288,6 +288,7 @@ const Musigprofooter = () => {
                 </div>
               </div>
             </li>
+
           </ul>
         </div>
 
@@ -298,19 +299,48 @@ const Musigprofooter = () => {
 
       {/* ================================== Leaderboard starts here ====================== */}
 
-{/* 
-
-
-
 
 
         <div className="min-h-screen w-full items-center bg-black p-10 ">
+
+        <ul
+            class="grid lg:grid-cols-3
+        md:grid-cols-2
+        sm:grid-cols-2
+        xs:grid-cols-2
+        gap-8 "
+          >
+            <li class="col-start-1 lg:col-span-6 md:col-span-3 sm:col-span-2 xs:col-span-2 w-92 h-24 lg:p-0 md:pt-1 text-center text-white">
+              <div class="font-extrabold text-md lg:text-4xl md:text-3xl">
+                {" "}
+                Ongoing Competitions
+              </div>
+
+            </li>
+          </ul>
+
+
+          <ul
+            class="grid lg:grid-cols-6 text-white font-bold
+        md:grid-cols-4
+        gap-8 grid-flow-row "
+          >
+            <li class="col-start-1 col-span-2 ml-20 mb-4  rounded-lg shadow-xl">COMPETITIONS</li>
+
+            <li
+              class="rounded-lg shadow-xl col-span-4 ml-24
+          "
+            >LEADERBOARDS</li>
+
+          </ul>
+
+
           <ul
             class="grid lg:grid-cols-5 lg:grid-rows-6 
         md:grid-cols-4 md:grid-rows-6
-        gap-8 grid-flow-row"
+        gap-8 grid-flow-row "
           >
-            <li class="col-start-1 col-span-2 row-start-1 row-span-6 w-92 h-192 bg-white rounded-lg shadow-xl"></li>
+            <li class="col-start-1 col-span-2 ml-20  row-start-1 row-span-6 h-192 bg-white rounded-lg shadow-xl"></li>
 
             <li
               class="bg-white rounded-lg shadow-xl h-192 w-192 lg:col-start-3 lg:col-span-3 lg:row-start-1 lg:row-span-6
@@ -775,17 +805,11 @@ const Musigprofooter = () => {
                 </tbody>
               </table>
 
-              <div className="iwanttosing"></div>
-              <img
-                src={iwanttosing}
-                alt="iwanttosing"
-                className="absolute pt-12 h-20 left-64 "
-              />
+             
             </li>
           </ul>
-        </div> */}
-
-
+        </div>
+ 
 
 
 
