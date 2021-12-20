@@ -4,6 +4,7 @@ import girl2 from "../media/girl2.png";
 import right from "../media/right.png";
 import wrong from "../media/wrong.png";
 import medal from "../media/medal.png";
+import buttontick from "../media/buttontick.png";
 
 const Linear = () => {
   return (
@@ -26,23 +27,21 @@ const Linear = () => {
             </div>
           </li>
 
-          <li class="bg-gray-800 rounded-lg shadow-xl h-96 lg:col-span-1 md:col-span-3">
-            <h1 class="font-extrabold h-32 text-lg relative text-orange-500 not-italic w-48 left-6 top-6">
-              Step - 1
-            </h1>
-            <div className="step1"></div>
-            <h1 class="font-lg h-20 text-md relative text-white not-italic text-center -top-10 p-20">
-              Users sing along to their favourite song
-            </h1>
+          <li class=" h-96 lg:col-span-1 md:col-span-3">
+            <div class="grid grid-cols-1 font-bold text-3xl pt-8 pl-16 text-yellow-500">Click to vote your decision</div>
+            <div class=" mt-20">
+            <img src={right} alt="John" className="absolute tickbox w-120 h-120" />
+            <img src={wrong} alt="John" className=" absolute tickbox w-120 h-120 ml-40" />
+            </div>
           </li>
 
-          <li class="rounded-lg shadow-xl h-96  lg:col-span-2 md:col-span-4 px-14">
-            <div class="grid grid-cols-2 gap-6">
-              <li class="bg-white rounded-lg shadow-xl h-96  lg:col-span-1">
+          <li class="lg:col-span-2 md:col-span-4 px-14">
+            <div class="grid grid-cols-2 gap-8">
+              <li class="bg-white rounded-2xl shadow-xl h-84  lg:col-span-1">
                 <div class="grid grid-cols-3">
                   <div class="col-span-1"></div>
                   <div class="col-span-1 pt-5">
-                    <img src={girl2} alt="John"></img>
+                    <img src={girl1} alt="John"></img>
                   </div>
                   <div class="col-span-1"></div>
                 </div>
@@ -51,13 +50,18 @@ const Linear = () => {
                   Jonathan James
                   <br />
                 </div>
-                <img src={medal} alt="medal" className=" pl-11 float-left" />
-                <span className="text-normal pl-5">
+                <img src={medal} alt="medal" className=" pl-7 float-left" />
+                <span className="text-normal pl-3">
                   Just the way you are the way yo...
+                  <button class="bg-teal-600 hover:bg-green-700 text-white font-bold py-3  rounded-full w-72 ml-5 mt-24">
+                <img src={buttontick} alt="medal" className=" pl-16 float-left" /> <span class="pr-20">Vote</span>
+              </button>
+
                 </span>
+                
               </li>
 
-              <li class="bg-white rounded-lg shadow-xl h-96  lg:col-span-1">
+              <li class="bg-white rounded-2xl shadow-xl h-84  lg:col-span-1">
                 <div class="grid grid-cols-3">
                   <div class="col-span-1"></div>
                   <div class="col-span-1 pt-5">
@@ -70,10 +74,13 @@ const Linear = () => {
                   Albert Flores
                   <br />
                 </div>
-                <img src={medal} alt="medal" className=" pl-11 float-left" />
-                <span className="text-normal pl-5">
+                <img src={medal} alt="medal" className=" pl-7 float-left" />
+                <span className="text-normal pl-3">
                   Just the way you are the way yo...
                 </span>
+                <button class="bg-teal-600 hover:bg-green-700 text-white font-bold py-3  rounded-full w-72 ml-5 mt-28">
+                 Vote
+              </button>
               </li>
             </div>
           </li>
@@ -81,36 +88,6 @@ const Linear = () => {
       </div>
     </div>
 
-    // <div className="linear">
-    //   <div className="doyouwanttovote"> Do you want to vote Our singers song </div>
-    //   <div className="doyouwanttovotesent">
-    //     Leverage agile frameworks to provide a robust synopsis for high level
-    //     overviews. Iterative approaches to corporate strategy foster
-    //     collaborative thinking to further the overall value proposition.
-    //     Organically grow the holistic{" "}
-    //   </div>
-    //   <div className="clicktovote">Click to vote your decision</div>
-    //   <div>
-    //     <img src={right} alt="John" className="tickbox w-134 h-134" />
-    //   </div>
-
-    //   <div>
-    //     <img src={wrong} alt="John" className="crossbox w-134 h-134" />
-    //   </div>
-
-    //   <div className="whitebox1">
-    //     <img src={girl1} alt="John" className="absolute  top-12 left-32" />
-    //     <div className="text-center font-bold text-gray-800 pl-8 pt-48 mb-3">Jonathan James<br/></div>
-    //     <img src={medal} alt="medal" className=" pl-11 float-left"/><span className="text-normal pl-5">Just the way you are the way yo...</span>
-
-    //   </div>
-
-    //   <div className="whitebox2">
-    //     <img src={girl2} alt="John" className="absolute  top-12 left-32" />
-    //     <div className="text-center font-bold text-gray-800 pl-8 pt-48 mb-3">Albert Flores<br/></div>
-    //     <img src={medal} alt="medal" className=" pl-11 float-left"/><span className="text-normal pl-5">Just the way you are the way yo...</span>
-    //   </div>
-    // </div>
   );
 };
 export default Linear;

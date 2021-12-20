@@ -2,7 +2,7 @@
 .footer {
     @apply h-6 text-base absolute text-center text-white not-italic w-full;
     top: 30px;
-  
+
     font-weight: normal;
     line-height: 146.1%;
   }

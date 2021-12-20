@@ -42,10 +42,7 @@
 }
 /* ℹ️ Base selector: .tickbox */
 .tickbox {
-  position: absolute;
-  left: 153px;
   top: 432px;
-  border-radius: 75px;
 }
 
 /* ℹ️ Base selector: .crossbox */

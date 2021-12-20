@@ -4,16 +4,16 @@ import arrow from "../media/arrow.png";
 
 const Musigprofooter = () => {
   return (
-    <div className=" flex items-center bg-white w-full absolute lg:top-280 md:top-300">
-      <div className="flex-1 max-w-4-xl lg:mx-1 md:mx-4  mt-16">
+    <div className=" flex items-center bg-white w-full h-auto absolute lg:top-280 md:top-300">
+      <div className="flex-1 max-w-4-xl mt-16">
         <ul
           class="grid lg:grid-cols-2 xl:grid-cols-4
         md:grid-cols-2
         sm:grid-cols-1
         xs:grid-cols-1
-        gap-4 "
+        gap-x-2 "
         >
-          <li class="col-span-1 w-92  rounded-lg h-96">
+          <li class="col-span-1 flex object-center justify-center w-92  rounded-lg h-80">
             <div class="absolute lg:block items-center justify-center">
               <img
                 class="sm:m-2 lg:m-14 lg:ml-14 md:m-6 xs:m-1"
@@ -106,7 +106,21 @@ const Musigprofooter = () => {
               </div>
             </div>
           </li>
+          </ul>
+          <ul
+          class="grid lg:grid-cols-3 xl:grid-cols-3
+        md:grid-cols-2
+        sm:grid-cols-1
+        xs:grid-cols-1
+        gap-x-2 "
+        >
+          <li class="col-span-4 flex object-center justify-center w-92 text-center p-4 text-white h-16 bg-orange-600">
+          © 2021 MuSigPro, Inc. All Rights Reserved.
+          </li>
+
         </ul>
+
+
       </div>
     </div>
 

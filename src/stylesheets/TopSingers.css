@@ -26,12 +26,6 @@
 }
 
 
-.largeblack {
-    @apply bg-black relative w-full;
-    height: 2568px;
-    top: 2655px;
-  }
-  
 .explain1 {
     @apply h-24 text-lg leading-8 absolute text-center text-white not-italic;
     width: 60%;
@@ -39,134 +33,12 @@
     top: 6%;
     font-weight: normal;
   }
-
-/* ℹ️ Base selector: .largebox1-1 */
-.largebox1-1 {
-    @apply absolute;
-    width: 370px;
-    height: 421px;
-    left: 135px;
-    top: 257px;
-    background-color: rgba(36, 34, 40, 1);
-    border-radius: 14px;
-  }
   
-  /* ℹ️ Base selector: .largebox1-2 */
-  .largebox1-2 {
-    @apply absolute;
-    width: 370px;
-    height: 421px;
-    left: 535px;
-    top: 257px;
-    background-color: rgba(17, 17, 17, 0.8);
-    border-radius: 14px;
+  .topsingerbgcolor
+  {
+    background: #242228;
   }
-  
-  /* ℹ️ Base selector: .largebox1-3 */
-  .largebox1-3 {
-    @apply absolute;
-    width: 370px;
-    height: 421px;
-    left: 935px;
-    top: 257px;
-    background-color: rgba(36, 34, 40, 1);
-    border-radius: 14px;
-  }
-  
-  /* ℹ️ Base selector: .largebox2-1 */
-  .largebox2-1 {
-    @apply absolute;
-    width: 370px;
-    height: 421px;
-    left: 135px;
-    top: 708px;
-    background-color: rgba(36, 34, 40, 1);
-    border-radius: 14px;
-  }
-  
-  /* ℹ️ Base selector: .largebox2-2 */
-  .largebox2-2 {
-    @apply absolute;
-    width: 370px;
-    height: 421px;
-    left: 535px;
-    top: 708px;
-    background-color: rgba(36, 34, 40, 1);
-    border-radius: 14px;
-  }
-  
-  /* ℹ️ Base selector: .largebox2-3 */
-  .largebox2-3 {
-    @apply absolute;
-    width: 370px;
-    height: 421px;
-    left: 935px;
-    top: 708px;
-    background-color: rgba(36, 34, 40, 1);
-    border-radius: 14px;
-  }
-
-.innerbox1{
-    position: absolute;
-  width: 300px;
-  height: 123px;
-  left: 30px;
-  top: 265px;
-  
-  background: #191919;
-  border-radius: 14px;
-  }
-  
-  .innerbox2{
-    position: absolute;
-    width: 300px;
-    height: 123px;
-    left: 30px;
-    top: 265px;
-    
+  .topsingeravgcolor
+  {
     background: #191919;
-    border-radius: 14px;
   }
-  .innerbox3{
-    position: absolute;
-  width: 300px;
-  height: 123px;
-  left: 30px;
-  top: 265px;
-  
-  background: #191919;
-  border-radius: 14px;
-  }
-  
-  .innerbox4{
-    position: absolute;
-    width: 300px;
-    height: 123px;
-    left: 30px;
-    top: 265px;
-    
-    background: #191919;
-    border-radius: 14px;
-  }
-  .innerbox5{
-    position: absolute;
-  width: 300px;
-  height: 123px;
-  left: 30px;
-  top: 265px;
-  
-  background: #191919;
-  border-radius: 14px;
-  }
-  
-  .innerbox6{
-    position: absolute;
-    width: 300px;
-    height: 123px;
-    left: 30px;
-    top: 265px;
-    
-    background: #191919;
-    border-radius: 14px;
-  }
-  

@@ -17,68 +17,15 @@
 
 .leaderpush{
   @apply absolute;
-  top:3950px;
+  top:3944px;
 }
 
 .leaderdate{
 font-size: 14px;
 }
 
-.largeblack1 {
-  @apply relative w-full;
-  top: 1915px;
-  margin-top: 10%;
-}
-
-.own{
-  @apply absolute;
-
-}
-
-/* ℹ️ Base selector: .viewmore */
-.viewmore {
-  @apply font-extrabold h-6 text-lg absolute text-center not-italic w-24;
-  left: 600px;
-  top: 1228px;
-
-  line-height: 146.1%;
-  color: rgba(255, 77, 8, 1);
-  border-radius: 60px;
-}
-
 .line{
   width: 453px;
-}
-
-.ongoing {
-  @apply font-extrabold h-12 text-4xl absolute text-center text-white not-italic;
-  width: 95%;
-  align-items: center;
-  top: 1328px;
-  line-height: 51px;
-}
-
-.CompBox {
-  position: absolute;
-  width: 490px;
-  height: 812px;
-  left: 112px;
-  top: -520px;
-  background: #fcfcfc;
-  border: 1px solid #dc1ee7;
-  box-sizing: border-box;
-  border-radius: 20px;
-}
-
-.LeadBox {
-  position: absolute;
-  width: 705px;
-  height: 812px;
-  left: 679px;
-  top: -520px;
-  background: #fcfcfc;
-  box-sizing: border-box;
-  border-radius: 20px;
 }
 
 .leaderboard_heading {

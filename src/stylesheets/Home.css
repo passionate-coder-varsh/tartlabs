@@ -4,106 +4,106 @@
 
 /* ℹ️ Base selector: .homebg */
 .homebg {
-    height: 900px;
-    background-image: url("/public/Rectangles.png");
-
-  }
-
-.homeor{
-  position: absolute;
-  height: 19px;
-  left: 754px;
-  top: 33px;
-  font-style: normal;
-  font-weight: light;
-  font-size: 16px;
-  line-height: 19px;
-  color:white
+  height: 900px;
+  background-image: url("/public/Rectangles.png");
 }
 
-.homeor1{
-  position: absolute;
-  height: 19px;
-  left: 838px;
-  top: 33px;
-  font-style: normal;
-  font-weight: light;
-  font-size: 16px;
-  line-height: 19px;
-  color: white;
+/* ℹ️ Base selector: .contenthome */
+
+.contenthome {
+  @apply font-extrabold h-24 lg:text-5xl md:text-xl sm:text-sm absolute left-0 text-center not-italic w-full;
+  top: 266px;
+  line-height: 55px;
+  color: rgba(255, 77, 8, 1);
 }
 
-.homeor2{
-  position: absolute;
-  height: 19px;
-  left: 942px;
-  top: 33px;
-  font-style: normal;
-  font-weight: light;
-  font-size: 16px;
-  line-height: 19px;
-  color: white;
+/* ℹ️ Base selector: .explain */
+.explain {
+  @apply h-24 text-lg leading-8 absolute text-center text-white not-italic;
+  width: 60%;
+  left: 290px;
+  top: 401px;
+  font-weight: normal;
 }
 
-.homeor3{
+.horizontal {
   position: absolute;
-  height: 19px;
-  left: 1054px;
-  top: 33px;
-  font-style: normal;
-  font-weight: light;
-  font-size: 16px;
-  line-height: 19px;
-  color:white
-}
-  /* ℹ️ Base selector: .contenthome */
-  
-  .contenthome {
-    @apply font-extrabold h-24 lg:text-5xl md:text-xl sm:text-sm absolute left-0 text-center not-italic w-full;
-    top: 266px;
-    line-height: 55px;
-    color: rgba(255, 77, 8, 1);
-  }
-  
-  /* ℹ️ Base selector: .explain */
-  .explain {
-    @apply h-24 text-lg leading-8 absolute text-center text-white not-italic;
-    width: 60%;
-    left: 290px;
-    top: 401px;
-    font-weight: normal;
-  }
-  
-
-.horizontal{
-  position: absolute;
-  width: 1519px;
   height: 0px;
   left: 0px;
-  top: 68px;
-  border: 0.5px solid #FF4D08;
+  top: 83px;
+  border: 0.5px solid #ff4d08;
 }
 
-  .homefront {
-    left: 379px;
-    top: 627px;
-    background: linear-gradient(
-    90.05deg, rgba(73, 0, 216, 0.4) 0.04%, rgba(255, 14, 106, 0.4) 101%);
-  }
-  
-  
-  .jonathan{
-    position: absolute;
-    width: 166px;
-    height: 28px;
-    left: 468px;
-    top: 700px;
-  
-    font-family: Sen;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 146.1%;
-  
-    text-transform: uppercase;
-  }
+.homefront {
+  left: 379px;
+  top: 627px;
+  background: linear-gradient(
+    90.05deg,
+    rgba(73, 0, 216, 0.4) 0.04%,
+    rgba(255, 14, 106, 0.4) 101%
+  );
+}
+
+.path{
+  position: absolute;
+  left: 43.5%;
+  right: 54.65%;
+  top: 74.49%;
+  bottom: 87.3%;
+
+}
+.name {
+  position: absolute;
+  width: 166px;
+  height: 28px;
+  left: 510px;
+  top: 629px;
+  font-family: Sen;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 146.1%;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.hrorange {
+  position: absolute;
+  width: 198.43px;
+  height: 0px;
+  left: 544px;
+  top: 679.06px;
+  border: 1px solid #ff4d08;
+}
+
+.hrwhite {
+  position: absolute;
+  width: 364.43px;
+  height: 0px;
+  left: 663px;
+  top: 679.06px;
+  border: 1px solid #ffffff;
+}
+
+.playbutton {
+  position: absolute;
+  left: 33.4%;
+  right: 69.38%;
+  top: 73.76%;
+  bottom: 87.2%;
+
+}
+
+.timeslot {
+  position: absolute;
+  left: 68.68%;
+  right: 21.53%;
+  top: 74.09%;
+  bottom: 87.29%;
+  font-family: Sen;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  color: #ffffff;
+}

@@ -25,6 +25,10 @@
   top:1028px;
 }
 
+.singbggray{
+  background: #242228;
+}
+
 .linearpush{
   @apply absolute;
   

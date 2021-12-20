@@ -10,3 +10,22 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.blue-color {
+  color:blue;
+}
+
+.green-color {
+  color:green;
+}
+
+.teal-color {
+  color:teal;
+}
+
+.yellow-color {
+color:yellow;
+}
+
+.red-color {
+  color:red;
+}
