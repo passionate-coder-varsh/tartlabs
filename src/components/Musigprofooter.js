@@ -33,7 +33,7 @@ const Musigprofooter = () => {
         gap-8 "
           >
             <li class="col-start-1 lg:col-span-3 md:col-span-3 sm:col-span-2 xs:col-span-2  row-start-1 row-span-6 w-92 h-24 lg:p-0 md:pt-1 text-center text-white">
-              <div class="font-extrabold text-md lg:text-4xl md:text-3xl">
+              <div class="font-extrabold text-md lg:text-4xl md:text-xl">
                 {" "}
                 Our top singers{" "}
               </div>
@@ -278,9 +278,9 @@ const Musigprofooter = () => {
 
             <li class=" rounded-lg shadow-xl h-20 lg:col-span-3 md:col-span-2">
               <div class=" grid grid-cols-3">
-                <div class="flex object-center lg:col-span-3 md:col-span-2 sm:col-span-1 col-span-1 pt-5 content-center justify-evenly">
+                <div class="flex object-center lg:col-span-3 md:col-span-2 sm:col-span-1 col-span-1 pt-5 lg:pl-0 md:pl-36 content-center justify-evenly">
                   <button
-                    class="bg-transparent hover:bg-orange-600 text-orange-600 font-semibold hover:text-white py-2 px-24 border 
+                    class="bg-transparent hover:bg-orange-600 text-orange-600 font-semibold hover:text-white py-2 lg:px-24 md:px-12 border 
               border-orange-600 hover:border-transparent rounded-full object-center"
                   >
                     View More
@@ -307,7 +307,7 @@ const Musigprofooter = () => {
             class="grid lg:grid-cols-3
         md:grid-cols-2
         sm:grid-cols-2
-        xs:grid-cols-2 xs:grid-rows-2
+        xs:grid-cols-2
         gap-8 "
           >
             <li class="col-start-1 lg:col-span-6 md:col-span-3 sm:col-span-2 xs:col-span-2 w-92 h-24 lg:p-0 md:pt-1 text-center text-white">
@@ -325,7 +325,7 @@ const Musigprofooter = () => {
         md:grid-cols-4
         gap-8 grid-flow-row "
           >
-            <li class="col-start-1 col-span-2 ml-20 mb-4  rounded-lg shadow-xl">COMPETITIONS</li>
+            <li class="col-start-1 lg:col-span-2 md:col-span-4 ml-20 mb-4  rounded-lg shadow-xl">COMPETITIONS</li>
 
             <li
               class="rounded-lg shadow-xl col-span-4 ml-24
@@ -340,8 +340,23 @@ const Musigprofooter = () => {
         md:grid-cols-4 md:grid-rows-6
         gap-8 grid-flow-row "
           >
-            <li class="col-start-1 col-span-2 ml-20  row-start-1 row-span-6 h-192 bg-white rounded-lg shadow-xl">
-            <div class="grid grid-cols-3">
+            <li class=" col-start-1 col-span-2 lg:ml-20 md:ml-10 md:w-156 lg:w-130 row-start-1 row-span-6 h-190 bg-white rounded-lg shadow-xl">
+            <div class="grid grid-cols-3 competitionhover h-36">
+            <div class="">
+            <img
+                        src={cups}
+                        alt="art"
+                        className="absolute pt-5 pl-5"
+                      />
+            </div>
+            <div class="col-span-2 mt-10">
+            <span class=" font-extrabold text-orange-600 ">Cups</span><br/>
+            <span class=" font-bold text-gray-400 ">Anna Kendrick</span><br/>
+            <pre class="text-sm font-semibold">Start:6th July 2020  End:27th July 2020</pre>
+            </div>
+           </div>
+           <hr class="w-97 ml-10"/>
+           <div class="grid grid-cols-3  competitionhover h-36">
             <div>
             <img
                         src={cups}
@@ -355,8 +370,8 @@ const Musigprofooter = () => {
             <pre class="text-sm font-semibold">Start:6th July 2020  End:27th July 2020</pre>
             </div>
            </div>
-           <hr class="w-97 mt-10 ml-10"/>
-           <div class="grid grid-cols-3">
+           <hr class="w-97  ml-10"/>
+           <div class="grid grid-cols-3  competitionhover h-36">
             <div>
             <img
                         src={cups}
@@ -370,8 +385,8 @@ const Musigprofooter = () => {
             <pre class="text-sm font-semibold">Start:6th July 2020  End:27th July 2020</pre>
             </div>
            </div>
-           <hr class="w-97 mt-10 ml-10"/>
-           <div class="grid grid-cols-3">
+           <hr class="w-97 ml-10"/>
+           <div class="grid grid-cols-3 competitionhover h-36">
             <div>
             <img
                         src={cups}
@@ -385,8 +400,8 @@ const Musigprofooter = () => {
             <pre class="text-sm font-semibold">Start:6th July 2020  End:27th July 2020</pre>
             </div>
            </div>
-           <hr class="w-97 mt-10 ml-10"/>
-           <div class="grid grid-cols-3">
+           <hr class="w-97  ml-10"/>
+           <div class="grid grid-cols-3  competitionhover h-36">
             <div>
             <img
                         src={cups}
@@ -400,27 +415,12 @@ const Musigprofooter = () => {
             <pre class="text-sm font-semibold">Start:6th July 2020  End:27th July 2020</pre>
             </div>
            </div>
-           <hr class="w-97 mt-10 ml-10"/>
-           <div class="grid grid-cols-3">
-            <div>
-            <img
-                        src={cups}
-                        alt="art"
-                        className="absolute pt-5 pl-5"
-                      />
-            </div>
-            <div class="col-span-2 mt-10">
-            <span class=" font-extrabold text-orange-600 ">Cups</span><br/>
-            <span class=" font-bold text-gray-400 ">Anna Kendrick</span><br/>
-            <pre class="text-sm font-semibold">Start:6th July 2020  End:27th July 2020</pre>
-            </div>
-           </div>
-           <hr class="w-97 mt-10 ml-10"/>
+
             </li>
 
             <li
-              class="bg-white rounded-lg shadow-xl h-192 w-192 lg:col-start-3 lg:col-span-3 lg:row-start-1 lg:row-span-6
-          md:row-start-7 md:col-start-1 md:row-span-6
+              class="bg-white rounded-lg shadow-xl h-190 lg:w-192 lg:col-start-3 lg:col-span-3 lg:row-start-1 lg:row-span-6
+          md:row-start-7 md:col-start-1 md:row-span-6 md:w-184
           sm:row-start-7 sm:col-start-1 sm:row-span-6
           xs:row-start-7 xs:col-start-1 xs:row-span-6
           "
@@ -883,7 +883,7 @@ const Musigprofooter = () => {
               <img
                         src={iwanttosing}
                         alt="art"
-                        className="absolute pt-7 ml-64 w-80"
+                        className="absolute pt-2 ml-64 w-60"
                       />
              
             </li>

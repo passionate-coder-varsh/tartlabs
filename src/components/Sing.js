@@ -236,10 +236,10 @@ const Sing = () => {
                   Click to vote your decision
                 </li>
                 <li class="h-40 col-span-1 row-span-2">
-                  <img src={right} alt="John" class="hover:border-current" />
+                  <img src={right} alt="John" class="" />
                 </li>
-                <li class="h-40 col-span-1 row-span-2">
-                  <img src={wrong} alt="John" />
+                <li class="h-40 col-span-1 row-span-2 ">
+                  <img src={wrong} alt="John" class="" />
                 </li>
               </ul>
             </li>
